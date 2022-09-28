@@ -1,8 +1,12 @@
+.Menu-container{
+    display: flex;
+}
+
 .Menu{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 250px;
+    width: 15%;
     background-color: rgb(0, 0, 0);
     color: #fff;
     height: 100vh;
@@ -17,6 +21,12 @@
 .menu-options{
     display: flex;
     flex-direction: column;
+}
+
+.dashboard_menu{
+    width: 85%;
+    height: 100vh;
+    display: flex;
 }
 
 .menu-options label{

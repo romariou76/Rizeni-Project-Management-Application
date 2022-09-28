@@ -1,4 +1,5 @@
 import "../styles/Register.css";
+import { Link } from "react-router-dom";
 
 function Register() {
   return (
@@ -31,31 +32,29 @@ function Register() {
                         <label>Confirm Password</label>
           </div> */}
 
-
-          <div className='grupo-reg'>
-                        <input required placeholder="nombre"/>
+          <div className="grupo-reg">
+            <input required placeholder="nombre" />
           </div>
-          <div className='grupo-reg'>
-                        <input required placeholder="email"/>
-          </div>
-
-          <div className='grupo-reg'>
-                        <input required placeholder="rol"/>
+          <div className="grupo-reg">
+            <input required placeholder="email" />
           </div>
 
-          <div className='grupo-reg'>
-                        <input required placeholder="password"/>
-          </div>
-          
-          <div className='grupo-reg'>
-                        <input required placeholder="password"/>
+          <div className="grupo-reg">
+            <input required placeholder="rol" />
           </div>
 
+          <div className="grupo-reg">
+            <input required placeholder="password" />
+          </div>
+
+          <div className="grupo-reg">
+            <input required placeholder="password" />
+          </div>
 
           <br></br>
-            <button>Registrarse</button>
+          <button>Registrarse</button>
           <p>¿Ya tienes una cuenta?</p>
-          <a href="#register">Ingresa aqui</a>
+          <Link to="/login">Ingresa aqui</Link>
         </div>
       </form>
     </div>
