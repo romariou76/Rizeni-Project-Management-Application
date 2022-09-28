@@ -1,0 +1,29 @@
+.Menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    height: 100vh;
+}
+
+.menu-main{
+    border-bottom: 1px solid #848583;
+    border-top: 1px solid #929292;
+    padding: 10px;
+}
+
+.menu-options{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-options label{
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.menu-options h4{
+    margin-left: 5px;
+}
