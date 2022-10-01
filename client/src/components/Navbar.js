@@ -1,6 +1,7 @@
 import { FaUserCircle } from "react-icons/fa";
 import { IoIosNotifications } from "react-icons/io";
 import { FaRProject } from "react-icons/fa";
+import {Link } from "react-router-dom"
 import "../styles/Navbar.css";
 import React from "react";
 
@@ -16,6 +17,9 @@ function Navbar() {
       <a>Crear</a>
       <a>About</a>
       <a>Tareas</a>
+      <a>
+      <Link to="/login">Salir</Link>
+      </a>
       <a>Buscar</a>
       <a style={{ float: "right" }}>
         <FaUserCircle className="FaUserCircle" />
