@@ -19,7 +19,7 @@ function Login() {
           </div>
           <br></br>
           {/* <button>Ingresar</button> */}
-          <Link className="button" to="/">
+          <Link className="button" to="/menu">
             Ingresar
           </Link>
 

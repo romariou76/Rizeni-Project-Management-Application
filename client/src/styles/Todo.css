@@ -6,13 +6,12 @@
 } */
 
 .todo-container{
-    background-color: rgb(218, 217, 217);
-    width: 300px;
+    background-color: rgb(255, 255, 255);
+    width: auto;
     /* border: 1px solid; */
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    margin: 1rem;
 }
 
 .todo-container label, input{

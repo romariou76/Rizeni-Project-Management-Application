@@ -18,9 +18,29 @@ function Menu() {
         </div>
       </div>
       <div className="dashboard_menu">
-        <Todo />
-        <Todo />
-        <Todo />
+
+        <div className="column-todo">
+          <div className="head-column">
+            <p>Por hacer</p>
+            <p>...</p>
+          </div>
+        </div>
+
+        <div className="column-progress">
+          <div className="head-column">
+            <p>En progreso</p>
+            <p>...</p>
+          </div>
+          <Todo/>
+        </div>
+
+        <div className="column-finalized">
+          <div className="head-column">
+            <p>Finalizado</p>
+            <p>...</p>
+          </div>
+        </div>
+
       </div>
     </div>
    

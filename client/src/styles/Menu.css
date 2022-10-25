@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 15%;
-    background-color: rgb(0, 0, 0);
+    background-color: #261a42;
     color: #fff;
     height: 100vh;
 }
@@ -25,8 +25,54 @@
 
 .dashboard_menu{
     width: 85%;
-    height: 100vh;
+    height: auto;
     display: flex;
+    padding: 0.5rem;
+    background-image: linear-gradient(
+  125deg,
+  hsl(240deg 80% 20%) 0%,
+  hsl(241deg 79% 21%) 4%,
+  hsl(243deg 81% 22%) 8%,
+  hsl(244deg 80% 24%) 13%,
+  hsl(245deg 80% 25%) 17%,
+  hsl(247deg 81% 26%) 21%,
+  hsl(248deg 80% 28%) 25%,
+  hsl(247deg 76% 26%) 29%,
+  hsl(247deg 72% 24%) 33%,
+  hsl(246deg 68% 22%) 37%,
+  hsl(247deg 64% 20%) 42%,
+  hsl(247deg 60% 18%) 46%,
+  hsl(245deg 55% 16%) 50%,
+  hsl(250deg 58% 17%) 54%,
+  hsl(254deg 63% 18%) 58%,
+  hsl(258deg 65% 19%) 63%,
+  hsl(262deg 69% 20%) 67%,
+  hsl(266deg 72% 21%) 71%,
+  hsl(270deg 75% 22%) 75%,
+  hsl(285deg 78% 25%) 79%,
+  hsl(301deg 80% 28%) 83%,
+  hsl(315deg 83% 30%) 87%,
+  hsl(330deg 86% 33%) 92%,
+  hsl(345deg 88% 36%) 96%,
+  hsl(0deg 91% 38%) 100%
+);
+}
+
+.column-todo, .column-progress, .column-finalized{
+    width: 32%;
+    /* height: fit-content; */
+    height: 300px;
+    margin: 0% 1% 0% 1%;
+    padding: 1%;
+    background-color: #bab8b8;
+    border-radius: 5px;
+}
+
+.head-column{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5%;
+    font-weight: bold;
 }
 
 .menu-options label{

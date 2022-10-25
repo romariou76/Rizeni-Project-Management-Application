@@ -7,20 +7,18 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="Navbar">
+  <div className="Navbar">
       <div style={{ float: "left" }} className="logo">
         <FaRProject className="FaRProject" />
         <a>izeni</a>
       </div>
 
       <a>Home</a>
-      <a>Crear</a>
       <a>About</a>
-      <a>Tareas</a>
       <a>
       <Link to="/login">Salir</Link>
       </a>
-      <a>Buscar</a>
+      <a>Login</a>
       <a style={{ float: "right" }}>
         <FaUserCircle className="FaUserCircle" />
       </a>

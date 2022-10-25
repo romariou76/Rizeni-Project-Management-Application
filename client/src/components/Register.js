@@ -1,62 +1,52 @@
 import "../styles/Register.css";
 import { Link } from "react-router-dom";
+import { AiFillGithub, AiFillFacebook, AiOutlineTwitter } from "react-icons/ai";
+import { FcGoogle } from "react-icons/fc";
 
 function Register() {
   return (
     <div className="register-container">
-      <form>
-        <div className="register-form">
-          <h2>Registrese Ahora</h2>
+      <div className="left-container">
+        <form>
+          <div className="register-form">
+            <h2>Registrese Ahora</h2>
 
-          {/* <div className='grupo-reg'>
-                        <input required/>
-                        <label>Nombre</label>
-          </div>
-          <div className='grupo-reg'>
-                        <input required/>
-                        <label>Email</label>
-          </div>
+            <div className="grupo-reg">
+              <input required placeholder="Nombre" />
+            </div>
+            <div className="grupo-reg">
+              <input required placeholder="Email" />
+            </div>
 
-          <div className='grupo-reg'>
-                        <input required/>
-                        <label>Rol</label>
-          </div>
+            <div className="grupo-reg">
+              <input required placeholder="Rol" />
+            </div>
 
-          <div className='grupo-reg'>
-                        <input required/>
-                        <label>Password</label>
-          </div>
-          
-          <div className='grupo-reg'>
-                        <input required/>
-                        <label>Confirm Password</label>
-          </div> */}
+            <div className="grupo-reg">
+              <input required placeholder="Password" />
+            </div>
 
-          <div className="grupo-reg">
-            <input required placeholder="nombre" />
-          </div>
-          <div className="grupo-reg">
-            <input required placeholder="email" />
-          </div>
+            <div className="grupo-reg">
+              <input required placeholder="Confirm Password" />
+            </div>
 
-          <div className="grupo-reg">
-            <input required placeholder="rol" />
+            <br></br>
+            <Link to="/login" className="regiter-buttom">Registrarse</Link>
+            
           </div>
-
-          <div className="grupo-reg">
-            <input required placeholder="password" />
-          </div>
-
-          <div className="grupo-reg">
-            <input required placeholder="password" />
-          </div>
-
-          <br></br>
-          <button>Registrarse</button>
-          <p>¿Ya tienes una cuenta?</p>
-          <Link to="/login">Ingresa aqui</Link>
+        </form>
         </div>
-      </form>
+
+        <div className="right-container">
+          <div>
+            <p>Utilize sus redes sociales </p>
+            <div className="facebook-container"><AiFillFacebook className="AiFillFacebook"/>Accede con Facebook</div>
+            <div className="twiter-container"><AiOutlineTwitter className="AiOutlineTwitter"/>Accede con Twiter</div>
+            <div className="google-container"><FcGoogle className="FcGoogle" />Accede con Google</div>
+            <div className="github-container"><AiFillGithub className="AiFillGithub" />Accede con GitHub</div>
+          <Link to="/login">¿Ya tiene una cuenta? Inicie sesión</Link>
+          </div>
+        </div>
     </div>
   );
 }

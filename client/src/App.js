@@ -12,7 +12,6 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
       <header className="App-header">
         {/* <Login/> */}
         {/* <Todo /> */}
@@ -21,11 +20,14 @@ function App() {
 
         <Routes>
           <Route path="/" element={<LandingPage  />} />
+          {/* <Route path="/" element={<Framer  />} /> */}
+
           <Route path="/menu" element={<Menu  />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
         </Routes>
       </header>
+    {/* <Footer /> */}
     </div>
   );
 }
