@@ -9,7 +9,7 @@ function LandingPage() {
       <Navbar />
       <div className="hero">
         <div className="hero-info">
-          <p>Bienvenidos a RIzeni Gestiona tus proyectos de cualquier tamaño</p>
+          <p>Bienvenido a RIzeni <br></br>Gestiona el desarrollo de tus proyectos</p>
           <w>Rizeni para todas las empresas e organizaciones</w>
           <br></br>
           <button className="login-button">Registrate ahora!</button>

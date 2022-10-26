@@ -1,14 +1,15 @@
 .Navbar {
   display: block;
   text-align: center;
-  padding: 16px 16px;
+  padding: 25px 25px;
+  /* background-color: purple; */
 }
 
 .Navbar a {
   text-decoration: none;
   margin: 0px 25px 0px 25px;
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 500;
+  font-size: 16px;
   color: white;
   cursor: pointer;
 }
@@ -26,8 +27,13 @@
 .FaRProject {
   color: white;
   margin-left: 25px;
-  font-size: 23px;
-  margin-top: -2px;
+  font-size: 30px;
+  margin-top: -8px;
+}
+
+.rizeni{
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .FaUserCircle {
@@ -39,4 +45,19 @@
   float: right;
   font-size: 23px;
   margin-top: -2px;
+}
+
+.register-button{
+  padding: 10px 25px 10px 25px;
+  float: right;
+  margin-top: -10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(206, 0, 100);
+  color: white;
+  border: none;
+}
+
+.register-button:hover{
+  background-color: rgb(205, 9, 144);
 }
