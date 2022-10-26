@@ -15,7 +15,6 @@ function Navbar() {
 
       <a>Home</a>
       <a>About</a>
-      <a><Link to="/login">Salir</Link></a>
       <div className="register-button"><Link to="/login">Ingresar</Link></div>
 
       {/* <a >

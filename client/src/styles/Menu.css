@@ -1,4 +1,5 @@
 .Menu-container{
+    width: 100%;
     display: flex;
 }
 
@@ -6,7 +7,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 15%;
+    width: 12%;
     background-color: #0f0036;
     color: #fff;
     height: 100vh;
@@ -39,6 +40,13 @@
 
 .menu-options p{
     margin-left: 10px;
+}
+
+.menu-options .p{
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgba(219, 219, 219, 0.716);
+    font-size: 1rem;
 }
 
 .menu-options label:hover{

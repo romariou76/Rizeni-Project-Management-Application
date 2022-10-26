@@ -1,6 +1,5 @@
 .dashboard-container{
     display: flex;
-    justify-content: end;
 }
 
 .db-column{
@@ -21,3 +20,64 @@
     height: 12rem;
     border: 1px solid gray;
 } */
+
+.dashboard-content{
+    padding: 1rem 2rem 1rem 2rem;
+    width: 88%;
+    justify-content: end;
+    flex-direction: column;
+    height:96vh;
+    background-color: rgb(243, 242, 242);
+}
+
+.title-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    /* background-color: violet; */
+}
+
+.title-area p{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.avatar{
+    cursor: pointer;
+    width: 3rem;
+}
+
+.participation{
+    display: flex;
+    height: 300px;
+}
+
+.participation-content{
+    width: 60%;
+    height: 270px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.participation-details{
+    width: 22%;
+    height: 270px;
+    background-color: white;
+    margin-left: 2rem;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.work-MG-content{
+    width: 88%;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 4rem;
+    padding: 2rem;
+}

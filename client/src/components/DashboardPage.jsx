@@ -1,8 +1,17 @@
+import avatar from "../svg/user.svg"
+
 function DashboardPage() {
     return ( 
-        <div>
-            <div>Participacion</div>
-            <div>Work Management</div>
+        <div className="dashboard-content">
+            <div className="title-area">
+                <p>Dashboard</p>
+                <img className="avatar" src={avatar}></img>
+            </div>
+            <div className="participation">
+                <div className="participation-content">Participacion</div>
+                <div className="participation-details"></div>
+            </div>
+            <div className="work-MG-content">Work Management</div>
         </div>
      );
 }

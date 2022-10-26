@@ -1,11 +1,13 @@
 import "../styles/Menu.css";
 import Todo from "./Todo";
+import DashboardPage from "./DashboardPage"
 import { MdDashboardCustomize } from "react-icons/md";
 import { BiMessageDetail } from "react-icons/bi";
 import { MdTask } from "react-icons/md";
 import { VscCalendar } from "react-icons/vsc";
 import { FaUsers } from "react-icons/fa";
 import { SiGoogleanalytics } from "react-icons/si";
+import { IoLogOut } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
 function Menu() {
@@ -47,34 +49,13 @@ function Menu() {
           </label>
 
           <label>
-            <a><Link to="/">Salir</Link></a>
+            <IoLogOut />
+            <a><Link to="/" className="p">Salir</Link></a>
           </label>
 
         </div>
       </div>
-      <div className="dashboard_menu">
-        <div className="column-todo">
-          <div className="head-column">
-            <p>Por hacer</p>
-            <p>...</p>
-          </div>
-        </div>
-
-        <div className="column-progress">
-          <div className="head-column">
-            <p>En progreso</p>
-            <p>...</p>
-          </div>
-          <Todo />
-        </div>
-
-        <div className="column-finalized">
-          <div className="head-column">
-            <p>Finalizado</p>
-            <p>...</p>
-          </div>
-        </div>
-      </div>
+      <DashboardPage />
     </div>
   );
 }
