@@ -6,6 +6,7 @@ import { MdTask } from "react-icons/md";
 import { VscCalendar } from "react-icons/vsc";
 import { FaUsers } from "react-icons/fa";
 import { SiGoogleanalytics } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 function Menu() {
   return (
@@ -44,7 +45,11 @@ function Menu() {
             <FaUsers />
             <p>Colaboradores</p>
           </label>
-          
+
+          <label>
+            <a><Link to="/">Salir</Link></a>
+          </label>
+
         </div>
       </div>
       <div className="dashboard_menu">

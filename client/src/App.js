@@ -13,16 +13,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <Login/> */}
-        {/* <Todo /> */}
-        {/* <Menu /> */}
-        {/* <Register/> */}
-
         <Routes>
           <Route path="/" element={<LandingPage  />} />
           {/* <Route path="/" element={<Framer  />} /> */}
-
           <Route path="/menu" element={<Menu  />} />
+          <Route path="/dashboard" element={<Dashboard  />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
         </Routes>

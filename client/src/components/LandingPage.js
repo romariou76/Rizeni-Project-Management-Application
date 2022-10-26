@@ -2,6 +2,7 @@ import React from "react";
 import hero from "../svg/logo6.svg";
 import "../styles/LandingPage.css";
 import Navbar from "./Navbar";
+import { Link } from "react-router-dom";
 
 function LandingPage() {
   return (
@@ -11,8 +12,8 @@ function LandingPage() {
         <div className="hero-info">
           <p>Bienvenido a RIzeni <br></br>Gestiona el desarrollo de tus proyectos</p>
           <w>Rizeni para todas las empresas e organizaciones</w>
-          <br></br>
-          <button className="login-button">Registrate ahora!</button>
+          <br></br><br></br><br></br><br></br>
+          <Link className="login-button" to="/register">Registrate ahora!</Link>
         </div>
         <div className="Landing-picture">
           <img className="hero-image" src={hero}></img>

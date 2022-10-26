@@ -7,18 +7,16 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 15%;
-    background-color: #090020;
+    background-color: #0f0036;
     color: #fff;
     height: 100vh;
     border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
 }
 
 .menu-main{
     padding: 10px;
     text-align: center;
-    background-color: #0f0033;
-    border-top-right-radius: 30px;
+    background-color: #180050;
 }
 
 .menu-options{
