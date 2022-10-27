@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Login.css";
 import { Link } from "react-router-dom";
 
-function Login() {
+function LoginPage() {
   return (
     <div className="login-container">
       <form>
@@ -31,4 +31,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default LoginPage;

@@ -1,6 +1,6 @@
 import "../styles/Menu.css";
-import Todo from "./Todo";
-import DashboardPage from "./DashboardPage"
+import Todo from "../components/Todo";
+import DashboardPage from "../components/DashboardPage"
 import { MdDashboardCustomize } from "react-icons/md";
 import { BiMessageDetail } from "react-icons/bi";
 import { MdTask } from "react-icons/md";
@@ -10,7 +10,7 @@ import { SiGoogleanalytics } from "react-icons/si";
 import { IoLogOut } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
-function Menu() {
+function MenuPage() {
   return (
     <div className="Menu-container">
       <div className="Menu">
@@ -59,4 +59,4 @@ function Menu() {
     </div>
   );
 }
-export default Menu;
+export default MenuPage;

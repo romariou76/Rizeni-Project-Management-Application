@@ -1,7 +1,7 @@
 import React from "react";
 import hero from "../svg/logo6.svg";
 import "../styles/LandingPage.css";
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
 
 function LandingPage() {

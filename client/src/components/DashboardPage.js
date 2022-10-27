@@ -9,7 +9,12 @@ function DashboardPage() {
             </div>
             <div className="participation">
                 <div className="participation-content">Participacion</div>
-                <div className="participation-details"></div>
+                <div className="participation-details">
+                    <div className="participation-item"></div>
+                    <div className="participation-item"></div>
+                    <div className="participation-item"></div>
+                    <div className="participation-item"></div>
+                </div>
             </div>
             <div className="work-MG-content">Work Management</div>
         </div>

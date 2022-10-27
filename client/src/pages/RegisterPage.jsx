@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { AiFillGithub, AiFillFacebook, AiOutlineTwitter } from "react-icons/ai";
 import { FcGoogle } from "react-icons/fc";
 
-function Register() {
+function RegisterPage() {
   return (
     <div className="register-container">
       <div className="left-container">
@@ -51,4 +51,4 @@ function Register() {
   );
 }
 
-export default Register;
+export default RegisterPage;

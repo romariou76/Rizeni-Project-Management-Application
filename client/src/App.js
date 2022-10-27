@@ -1,12 +1,9 @@
 import "./App.css";
 import Dashboard from "./components/Dashboard";
-import Login from "./components/Login";
-import Menu from "./components/Menu";
-import Navbar from "./components/Navbar";
-import Register from "./components/Register";
-import Todo from "./components/Todo";
-import LandingPage from "./components/LandingPage";
-
+import LoginPage from "./pages/LoginPage";
+import MenuPage from "./pages/MenuPage";
+import RegisterPage from "./pages/RegisterPage";
+import LandingPage from "./pages/LandingPage";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -15,14 +12,12 @@ function App() {
       <header className="App-header">
         <Routes>
           <Route path="/" element={<LandingPage  />} />
-          {/* <Route path="/" element={<Framer  />} /> */}
-          <Route path="/menu" element={<Menu  />} />
+          <Route path="/menu" element={<MenuPage  />} />
           <Route path="/dashboard" element={<Dashboard  />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/login" element={<LoginPage />} />
         </Routes>
       </header>
-    {/* <Footer /> */}
     </div>
   );
 }
