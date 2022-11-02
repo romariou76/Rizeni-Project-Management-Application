@@ -1,7 +1,9 @@
+import React from "react";
 import "../styles/Profile.css"
 
 function Profile() {
-    return ( 
+    return (
+        <React.Fragment>
         <div className="Profile-content">
             <div className="profile-info">
                 <p>Overview</p>
@@ -11,11 +13,11 @@ function Profile() {
                     <demography className="demography"></demography>
                 </div>
                 <div className="active-users">
-
                 </div>
             </div>
             <div className="profile"></div>
         </div>
+        </React.Fragment>
      );
 }
 

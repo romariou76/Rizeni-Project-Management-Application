@@ -10,15 +10,17 @@ import Collaborators from "./components/Collaborators";
 function App() {
   return (
     <div className="App">
+        <MenuPage />
+
       <header className="App-header">
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<LandingPage  />} />
           <Route path="/menu" element={<MenuPage  />} />
           <Route path="/collaborators" element={<Collaborators  />} />
           <Route path="/dashboard" element={<Dashboard  />} />
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/login" element={<LoginPage />} />
-        </Routes>
+        </Routes> */}
       </header>
     </div>
   );

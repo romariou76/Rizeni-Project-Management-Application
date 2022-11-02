@@ -10,14 +10,14 @@
     width: 100%;
     height: 7vh;
     text-align: center;
-    background-color: coral;
+    background-color: white;
 }
 
 .collaborator-content{
     width: auto;
     height: 93vh;
     margin: 1rem;
-    background-color: violet;
+    /* background-color: violet; */
     border-radius: 1rem;
 }
 
