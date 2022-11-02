@@ -1,0 +1,57 @@
+.collaborators{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 100vh;
+    background-color: var(--main-bg-color);
+}
+
+.collaborator-navbar{
+    width: 100%;
+    height: 7vh;
+    text-align: center;
+    background-color: coral;
+}
+
+.collaborator-content{
+    width: auto;
+    height: 93vh;
+    margin: 1rem;
+    background-color: violet;
+    border-radius: 1rem;
+}
+
+.colaborator-items{
+    width: auto;
+    height: 11rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.collaborator-item{
+    width: 11rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: .5rem;
+}
+
+.foto-collaborator{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+.collaborator-process{
+    display: flex;
+    width: auto;
+    height: 58vh;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .5rem;
+}

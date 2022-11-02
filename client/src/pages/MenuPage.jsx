@@ -9,6 +9,8 @@ import { FaUsers } from "react-icons/fa";
 import { SiGoogleanalytics } from "react-icons/si";
 import { IoLogOut } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import Profile from "../components/Profile";
+import Collaborators from "../components/Collaborators";
 
 function MenuPage() {
   return (
@@ -56,6 +58,8 @@ function MenuPage() {
         </div>
       </div>
       <DashboardPage />
+      {/* <Profile /> */}
+      {/* <Collaborators /> */}
     </div>
   );
 }

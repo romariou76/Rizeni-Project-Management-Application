@@ -22,13 +22,13 @@
 } */
 
 .dashboard-content{
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1rem;
     width: 85%;
     justify-content: end;
     flex-direction: column;
     height: 150vh;
 
-    background-color: rgb(182, 188, 213);
+    background-color: var(--main-bg-color);
 }
 
 .title-area{
