@@ -1,4 +1,5 @@
 import avatar from "../svg/user.svg"
+import "../styles/Dashboard.css"
 
 function DashboardPage() {
     return ( 

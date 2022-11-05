@@ -1,26 +1,3 @@
-.dashboard-container{
-    display: flex;
-}
-
-.db-column{
-    width: 24rem;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* text-align: center; */
-    height: 100vh;
-    border: 1px solid black;
-    border-radius: 20px;
-
-}
-/* 
-.todo{
-    width: 100%;
-    height: 12rem;
-    border: 1px solid gray;
-} */
-
 .dashboard-content{
     padding: 1rem;
     width: 85%;
