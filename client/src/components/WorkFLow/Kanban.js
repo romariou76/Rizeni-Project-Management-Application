@@ -15,9 +15,9 @@ const TaskList = styled.div`
   display: flex;
   flex-direction: column;
   background: #f3f3f3;
-  min-width: 310px;
+  width: 330px;
   border-radius: 5px;
-  padding: 15px 15px;
+  padding: 15px;
   margin-right: 15px;
   overflow-y: scroll;
 `;
@@ -26,13 +26,12 @@ const TaskColumnStyles = styled.div`
   display: flex;
   width: 100%;
   min-height: 80vh;
-  height: 100vh;
+  height: 86vh;
 `;
 
 const Title = styled.span`
   color: black;
   font-weight: bold;
-  background: rgba(16, 149, 125, 0.15);
   padding: 2px 10px;
   border-radius: 5px;
   align-self: flex-start;
@@ -90,7 +89,10 @@ const Kanban = () => {
                     ref={provided.innerRef}
                     {...provided.droppableProps}
                   >
-                    <Title>{column.title}</Title>
+                    <div className='TaskList'>
+                      <Title className='Title-Task'>{column.title}</Title>
+                      <p>....</p>
+                    </div>
                     {column.items.map((item, index) => (
                       <TaskCard key={item} item={item} index={index}
                        />

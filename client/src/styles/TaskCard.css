@@ -4,9 +4,25 @@
 
 .column-container{
   /* background: linear-gradient(to right, #7b4397, #dc2430); */
-  background: linear-gradient(to right, #ff0084, #33001b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .WorkFLow{
   width: 85%;
+  padding: 1rem;
+  background: linear-gradient(to right, #ff0084, #33001b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.work-navbar{
+  display: flex;
+  height: 7vh;
+  margin-bottom: 1rem;
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+.TaskList{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
 }

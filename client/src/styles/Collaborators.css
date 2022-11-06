@@ -3,6 +3,7 @@
     flex-direction: column;
     width: 85%;
     height: 100vh;
+    padding: 1rem;
     background-color: var(--main-bg-color);
 }
 

@@ -1,4 +1,5 @@
 import "../styles/Collaborators.css"
+import Collaborator from "./Collaborator";
 
 function Collaborators() {
     return ( 
@@ -8,35 +9,31 @@ function Collaborators() {
             </div>
             <div className="collaborator-content">
                 <div className="colaborator-items">
-                    <div className="collaborator-item">
-                        <h4>SHORT VIDEO</h4>
-                        <span className="foto-collaborator"></span>
-                        <p>Loader</p>
-                    </div>
-                    <div className="collaborator-item">
-                        <h4>SHORT VIDEO</h4>
-                        <span className="foto-collaborator"></span>
-                        <p>Loader</p>
-                    </div><div className="collaborator-item">
-                        <h4>SHORT VIDEO</h4>
-                        <span className="foto-collaborator"></span>
-                        <p>Loader</p>
-                    </div><div className="collaborator-item">
-                        <h4>SHORT VIDEO</h4>
-                        <span className="foto-collaborator"></span>
-                        <p>Loader</p>
-                    </div>
-                    <div className="collaborator-item">
-                        <h4>SHORT VIDEO</h4>
-                        <span className="foto-collaborator"></span>
-                        <p>Loader</p>
-                    </div>
-                    <div className="collaborator-item">
-                        <h4>SHORT VIDEO</h4>
-                        <span className="foto-collaborator"></span>
-                        <p>Loader</p>
-                    </div>
-                    
+                    <Collaborator
+                        name="Fernando"
+                        foto="foto"
+                        cargo="Frontend"
+                    />
+                    <Collaborator
+                        name="Paola"
+                        foto="foto"
+                        cargo="Backend"
+                    />
+                    <Collaborator
+                        name="Diego"
+                        foto="foto"
+                        cargo="Diseñador UI"
+                    />
+                    <Collaborator
+                        name="Sofia"
+                        foto="foto"
+                        cargo="Diseñador UX"
+                    />
+                    <Collaborator
+                        name="Sofia"
+                        foto="foto"
+                        cargo="Analista"
+                    />
                 </div>
                 <div className="collaborator-process">
                 </div>

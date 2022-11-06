@@ -7,7 +7,7 @@ export const data = [
   },
   {
     id: "2",
-    Task: "Solucionar errores de la API",
+    Task: "Solucionar errores de la API asi como crear aplicaciones web",
     Due_Date: "26-May-2021",
   },
   {
