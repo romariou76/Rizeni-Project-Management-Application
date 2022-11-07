@@ -12,31 +12,31 @@ export const SidebarData=[
     
     {
         title: "Perfil",
-        path: "/profile",
+        path: "/menu/profile",
         icon: <FaUser />
     },
 
     {
         title: "Dashboard",
-        path: "/dashboard",
+        path: "/menu/dashboard",
         icon: <MdDashboardCustomize />
     },
 
     {
         title: "Mensajes",
-        path: "/profile",
+        path: "/menu/profile",
         icon: <BiMessageDetail />
     },
 
     {
         title: "Tareas",
-        path: "/workflow",
+        path: "/menu/workflow",
         icon: <MdTask />
     },
 
     {
         title: "Analisis",
-        path: "/profile",
+        path: "/menu/analisis",
         icon: <SiGoogleanalytics />
     },
 
@@ -48,7 +48,7 @@ export const SidebarData=[
 
     {
         title: "Colaboradores",
-        path: "/collaborators",
+        path: "/menu/collaborators",
         icon: <FaUsers />
     },
 

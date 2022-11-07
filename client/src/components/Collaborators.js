@@ -36,6 +36,8 @@ function Collaborators() {
                     />
                 </div>
                 <div className="collaborator-process">
+                    <div></div>
+                    
                 </div>
             </div>
         </div>
