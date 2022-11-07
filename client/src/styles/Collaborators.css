@@ -3,56 +3,189 @@
     flex-direction: column;
     width: 85%;
     height: 100vh;
-    padding: 1rem;
-    background-color: var(--main-bg-color);
+    background-color: rgb(245,246,250);
 }
 
 .collaborator-navbar{
-    width: 100%;
-    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 9vh;
     text-align: center;
     background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.122) 0px 25px 20px -20px;
+}
+
+.collaborator-navbar p{
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.collaborator-container{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 26vh;
+    margin: 1rem;
+}
+
+.overview-p{
+    font-weight: bold;
 }
 
 .collaborator-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.roles-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 12rem;
+    height: 3.5rem;
+    border-radius: .5rem;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.rol-logo{
+    width: 3rem;
+    height: 3rem;
+}
+
+.rol-info{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    height: auto; 
+}
+
+.rol-info1{
+    font-weight: bold;
+    margin-bottom: .2rem;
+}
+
+.rol-info2{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #5d5d5f;
+}
+
+.collaborators-card-content{
+    display: flex;
+    flex-direction: column;
     width: auto;
-    height: 93vh;
+    height: 70vh;
     margin: 1rem;
-    /* background-color: violet; */
-    border-radius: 1rem;
+}
+
+.todays{
+    font-weight: bold;
 }
 
 .colaborator-items{
-    width: auto;
-    height: 11rem;
     display: flex;
-    justify-content: space-between;
-    margin: 1rem;
+    justify-content: space-around;
+}
+
+.name-collaborator{
+    font-weight: bold;
+    color: black;
+    margin-bottom: -.1rem;
+}
+
+.cargo-collaborator{
+    font-size: 0.8rem;
+    color: rgb(123, 123, 123);
 }
 
 .collaborator-item{
-    width: 11rem;
-    height: 11rem;
+    width: 14rem;
+    height: 18rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: white;
-    border-radius: .5rem;
+    border-radius: .2rem;
+    transition: .1s;
+}
+
+.collaborator-item button{
+    background-color: rgb(91, 91, 255);
+    color: white;
+    padding: .5rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.collaborator-item:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .foto-collaborator{
-    width: 3rem;
-    height: 3rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
-    background-color: blueviolet;
+    background-color: rgba(90, 90, 90, 0.082);
 }
 
-.collaborator-process{
+.collaborator-options{
     display: flex;
-    width: auto;
-    height: 58vh;
-    background-color: white;
-    margin: 1rem;
-    border-radius: .5rem;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(146, 146, 146);
 }
+
+/* BOTTOM SEARCH */
+
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    width: 290px;
+    margin-right: 1rem;
+   }
+   
+   .input {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+   }
+   
+   .input:focus, input:hover {
+    outline: none;
+    border-color: rgba(0, 0, 0, 0.11);
+   }
+   
+   .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+   }
+   
+   
+   
+   
+   
+   
