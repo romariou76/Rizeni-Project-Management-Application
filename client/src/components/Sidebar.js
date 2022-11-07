@@ -5,7 +5,6 @@ import { NavLink } from 'react-router-dom';
 
 const Sidebar = () => {
     return (
-        <React.Fragment>
             <section>
                 <div className='sidebarcolor'>
                     {
@@ -22,7 +21,6 @@ const Sidebar = () => {
                     }
                 </div>
             </section>
-        </React.Fragment>
      );
 }
  

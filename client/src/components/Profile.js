@@ -3,7 +3,6 @@ import "../styles/Profile.css"
 
 function Profile() {
     return (
-        <React.Fragment>
         <div className="Profile-content">
             <div className="profile-info">
                 <p>Overview</p>
@@ -17,7 +16,6 @@ function Profile() {
             </div>
             <div className="profile"></div>
         </div>
-        </React.Fragment>
      );
 }
 
