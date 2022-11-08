@@ -19,7 +19,7 @@ const TaskList = styled.div`
   border-radius: 5px;
   padding: 15px;
   margin-right: 15px;
-  overflow-y: scroll;
+  Overflow: auto;
 `;
 
 const TaskColumnStyles = styled.div`

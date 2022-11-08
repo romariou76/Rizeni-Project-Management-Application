@@ -9,22 +9,25 @@ import Profile from "./components/Profile";
 import DashboardPage from "./components/DashboardPage";
 import WorkFlow from "./components/WorkFLow/WorkFLow"
 import Analisis from "./components/Analisis";
+// import Material from "./pages/Material"
+import CreateProject from './pages/CreateProject';
 
 function App() {
   return (
-      <Routes>
-        <Route path="/" element={<LandingPage />} ></Route>
-        <Route path="/register" element={<RegisterPage />} />
-        <Route path="/login" element={<LoginPage />} />
+       <Routes>
+         <Route path="/" element={<LandingPage />} ></Route>
+         <Route path="/register" element={<RegisterPage />} />
+         <Route path="/login" element={<LoginPage />} />
+         <Route path="/create" element={<CreateProject />} />
       
-        <Route path="/menu" element={<MenuPage  />} >
-          <Route path="/menu/collaborators" element={<Collaborators  />} />
-          <Route path="/menu/dashboard" element={<DashboardPage/>} />
-          <Route path="/menu/workflow" element={<WorkFlow />} />
-          <Route path="/menu/profile" element={<Profile />} />
-          <Route path="/menu/analisis" element={<Analisis />} />
-        </Route>
-      </Routes>
+         <Route path="/menu" element={<MenuPage  />} >
+           <Route path="/menu/collaborators" element={<Collaborators  />} />
+           <Route path="/menu/dashboard" element={<DashboardPage/>} />
+           <Route path="/menu/workflow" element={<WorkFlow />} />
+           <Route path="/menu/profile" element={<Profile />} />
+           <Route path="/menu/analisis" element={<Analisis />} />
+         </Route>
+       </Routes>
   );
 }
 

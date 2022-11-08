@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 15%;
-    background-color: rgb(12,38,134);
+    background-color: #090f62;
     color: #fff;
     height: 100vh;
     border-top-right-radius: 30px;
@@ -18,5 +18,5 @@
 .menu-main{
     padding: 10px;
     text-align: center;
-    background-color: rgb(252,77,92);
+    background-color: #090f62;
 }

@@ -14,6 +14,7 @@
 
 .work-navbar{
   display: flex;
+  justify-content: space-between;
   height: 7vh;
   margin-bottom: 1rem;
   width: 100%;
