@@ -7,7 +7,7 @@
 
 .WorkFLow{
   width: 85%;
-  background-color: rgb(41, 31, 31);
+  background-color: #19213C;
   /* background: linear-gradient(to right, #ff0084, #33001b); */
 }
 
@@ -67,4 +67,59 @@
   justify-content: space-between;
   align-items: center;
   height: 20px;
+}
+
+.task-span-color{
+  width: 5px;
+  min-height: 140px;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+.task-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.primary-details{
+  border-bottom: 1px solid white;
+  padding: 0px 17px;
+  padding-bottom: 0.5rem;
+}
+
+.title-task{
+  font-weight: bold;
+  color: white;
+}
+
+.task-asigned{
+  color: rgb(183, 183, 183);
+  font-size: 0.8rem;
+  margin-top: -0.8rem;
+}
+
+.task-info{
+  color: rgb(241, 233, 233);
+  font-size: 0.7rem;
+}
+
+.icon-task-TiMessages{
+  width: 1.1rem;
+  height: 1.6rem;
+}
+
+.icon-task-BsListTask{
+  width: 1rem;
+  color: white;
+  height: 2.4rem;
+}
+
+.icon-task-FaRegUser{
+  width: .8rem;
+  height: .8rem;
+}
+
+.icon-task-HiOutlineEye{
+  width: 1.1rem;
+  height: 1.1rem;
 }

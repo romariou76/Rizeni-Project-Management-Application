@@ -2,12 +2,12 @@ import { v4 as uuidv4 } from "uuid"
 export const data = [
   {
     id: "1",
-    Task: "Realizar el diseño de forntend",
+    Task: "Create blog content",
     Due_Date: "25-May-2021",
   },
   {
     id: "2",
-    Task: "Solucionar errores de la API asi como crear aplicaciones web",
+    Task: "Solucionar errores de la API",
     Due_Date: "26-May-2021",
   },
   {
