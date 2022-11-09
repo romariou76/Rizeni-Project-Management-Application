@@ -23,7 +23,7 @@ export const SidebarData=[
     },
 
     {
-        title: "Mensajes",
+        title: "Roadmap",
         path: "/menu/profile",
         icon: <BiMessageDetail />
     },
@@ -35,9 +35,15 @@ export const SidebarData=[
     },
 
     {
-        title: "Analisis",
+        title: "Reportes",
         path: "/menu/analisis",
         icon: <SiGoogleanalytics />
+    },
+
+    {
+        title: "Estimation",
+        path: "/profile",
+        icon: <VscCalendar />
     },
 
     {
@@ -54,7 +60,7 @@ export const SidebarData=[
 
     {
         title: "Salir",
-        path: "/login",
+        path: "/home",
         icon: <IoLogOut />
     },
 ]

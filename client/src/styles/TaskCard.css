@@ -1,24 +1,65 @@
 .WorkFlow{
-  background-color: slateblue;
+  /* background-color: slateblue; */
 }
 
 .column-container{
-  /* background: linear-gradient(to right, #7b4397, #dc2430); */
 }
 
 .WorkFLow{
   width: 85%;
-  padding: 1rem;
-  background: linear-gradient(to right, #ff0084, #33001b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: rgb(41, 31, 31);
+  /* background: linear-gradient(to right, #ff0084, #33001b); */
 }
 
 .work-navbar{
   display: flex;
   justify-content: space-between;
-  height: 7vh;
+  align-items: center;
   margin-bottom: 1rem;
   width: 100%;
-  background-color: antiquewhite;
+  background-color: white;
+  box-shadow: rgb(255, 255, 255) 0px 25px 20px -20px;
+}
+
+.info-project-nav{
+  height: 9vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+}
+
+.name-user{
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.name-project{
+  margin-left: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.name-org{
+  margin-right: 1rem;
+  background-color: #9970ae5c;
+  padding: .5rem;
+  border-radius: .2rem;
+}
+
+.avatar-group{
+  margin-right: 1rem;
+}
+
+.invitar-buttom{
+  background-color: #9970ae5c;
+  padding: .5rem;
+  border-radius: .2rem;
+  font-weight: bold;
+}
+
+.opciones-nav{
+  margin-right: 1rem;
 }
 
 .TaskList{

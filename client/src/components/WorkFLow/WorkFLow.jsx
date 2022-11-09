@@ -19,13 +19,12 @@ function WorkFLow() {
   return (
     <div className="WorkFLow">
       <div className="work-navbar">
-        <div>
-          <p>hola Romario</p>
-        </div>
-        <p>Equipo { nombre }</p>
-        <p>Invitar</p>
-        <div>
-          <AvatarGroup max={6}>
+
+        <div className="info-project-nav">
+          <p className="name-project">Proyecto { nombre }</p>
+          <p className="name-org">Empresa Romario</p>
+        
+          <AvatarGroup className="avatar-group" max={6}>
             <Avatar alt="Remy Sharp" src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" />
             <Avatar alt="Travis Howard" src="https://mdbcdn.b-cdn.net/img/new/avatars/1.webp" />
             <Avatar alt="Cindy Baker" src="https://mdbcdn.b-cdn.net/img/new/avatars/3.webp" />
@@ -34,6 +33,10 @@ function WorkFLow() {
             <Avatar alt="Trevor Henderson" src="https://mdbcdn.b-cdn.net/img/new/avatars/6.webp" />
             <Avatar alt="Trevor Henderson" src="https://ej2.syncfusion.com/demos/src/grid/images/5.png" />
           </AvatarGroup>
+          <p className="invitar-buttom">Invitar</p>
+        </div>
+        <div>
+          <p className="opciones-nav">opciones</p>
         </div>
       </div>
       <Kanban />

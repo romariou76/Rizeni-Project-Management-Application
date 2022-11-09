@@ -1,5 +1,6 @@
 import Sidebar from "../components/Sidebar";
 import NavPage from "../components/NavPage"
+import "../styles/Menu.css"
 
 function MenuPage() {
     return (
@@ -10,7 +11,7 @@ function MenuPage() {
                 </div>
                 <Sidebar />
             </div>
-            <NavPage />
+            <NavPage className="nav-page-content" />
         </div>
     );
 }

@@ -8,25 +8,32 @@ import "../../styles/TaskCard.css"
 const Container = styled.div`
   display: flex;
   height: auto;
+  padding: 1rem;
 `;
 
+// COlumna column
 const TaskList = styled.div`
   min-height: 100px;
   display: flex;
   flex-direction: column;
-  background: #f3f3f3;
-  width: 330px;
+  background: #f3f3f37d;
+  min-width: 300px;
   border-radius: 5px;
   padding: 15px;
   margin-right: 15px;
   Overflow: auto;
+  ::-webkit-scrollbar {
+    display: none;  /* Ocultar scroll */
+}
 `;
 
+// Columna Row general
 const TaskColumnStyles = styled.div`
   display: flex;
-  width: 100%;
+  min-width: 100%;
   min-height: 80vh;
-  height: 86vh;
+  height: 84vh;
+  overflow-x: auto;
 `;
 
 const Title = styled.span`
