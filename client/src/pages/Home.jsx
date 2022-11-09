@@ -37,11 +37,11 @@ export default function BasicModal() {
           <li><a href="default.asp">RIZENI</a></li>
           <li><a href="news.asp">Tu trabajo</a></li>
           <li><select className="select-navbar">
-            <option value="0">Proyectos</option>
-            <option value="0">Rizeni</option>
-            <option value="1">PeepoApp</option>
-            <option value="2">Optical UI</option>
-            <option value="3">PeepoPay</option>
+              <option value="0">Proyectos</option>
+              <option value="0">Rizeni</option>
+              <option value="1">PeepoApp</option>
+              <option value="2">Optical UI</option>
+              <option value="3">PeepoPay</option>
           </select></li>
           <li><a href="about.asp">Filtros</a></li>
           <li><a href="about.asp">Paneles</a></li>

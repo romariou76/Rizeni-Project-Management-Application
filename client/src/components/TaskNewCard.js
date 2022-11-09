@@ -7,7 +7,7 @@ function TaskNewCard() {
             <textarea className='input-new-task' placeholder='¿Qué se debe hacer?' data-autosize="true" dir='auto'></textarea>
             <div className='asignar-task-flex'>
                 <p>Asignar a:</p>
-                <select className="select-navbar">
+                <select className="select-navbar-new-task">
                     <option value="0">Romario</option>
                     <option value="0">Juan</option>
                     <option value="1">Sofia</option>
@@ -15,6 +15,8 @@ function TaskNewCard() {
                     <option value="3">Rene</option>
                 </select>
             </div>
+                <p className="description-task-new">Descripcion de la tarea</p>
+                <textarea className='description-area-new-task' placeholder='' data-autosize="true" dir='auto'></textarea>
             <button className='save-button-task'>Guardar</button>
         </div>
     );

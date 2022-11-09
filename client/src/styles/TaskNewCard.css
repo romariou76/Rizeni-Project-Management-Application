@@ -32,6 +32,10 @@
   .asignar-task-flex{
     display: flex;
   }
+
+  .asignar-task-flex p{
+    margin-top: .4rem;
+  }
   
   .save-button-task{
     border: none;
@@ -44,4 +48,40 @@
   
   .save-button-task:hover{
     background-color: rgb(19, 57, 228);
+  }
+
+  .select-navbar-new-task{
+    margin-top: -.4rem;
+    margin-left: .5rem;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    width: 100px;
+    font-size: 1rem;
+    font-family: 'Familjen Grotesk', sans-serif; 
+  }
+
+  .description-area-new-task{
+    width: 230px;
+    height: 20px;
+    padding: .5rem;
+    border: none;
+    border-radius: .2rem;
+    background-color: white;
+    box-shadow: none;
+    overflow: hidden;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 1rem;
+    resize: none;
+    margin-bottom: .5rem;
+  }
+
+  .description-area-new-task:focus{
+    outline: none;
+  }
+
+  .description-task-new{
+    margin-top: .1rem;
+    margin-bottom: .8rem;
+    font-weight: bold;
   }

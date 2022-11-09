@@ -70,6 +70,13 @@ li{
   border: none;
   font-size: 14px;
   width: 100px;
+  color: white;
+  font-weight: bold;
+}
+
+.select-navbar option{
+
+  color: black;
 }
 
 .select-navbar:focus{ outline: none;}

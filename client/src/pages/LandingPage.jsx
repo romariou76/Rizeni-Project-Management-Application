@@ -10,8 +10,9 @@ function LandingPage() {
       <Navbar />
       <div className="hero">
         <div className="hero-info">
-          <p>Bienvenido a RIzeni <br></br>Gestiona el desarrollo de tus proyectos</p>
-          <w>Rizeni para todas las empresas e organizaciones</w>
+          <p>Bienvenido a Rizeni <br></br>
+          <p>100% CSS Pure</p>Gestiona el desarrollo de tus proyectos con una interfaz sencilla y agradable</p>
+          <w>Rizeni para la Corporación Yupanna</w>
           <br></br><br></br><br></br><br></br>
           <Link className="login-button" to="/register">Registrate ahora!</Link>
         </div>
