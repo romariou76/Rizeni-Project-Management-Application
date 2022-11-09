@@ -11,6 +11,12 @@
   /* background: linear-gradient(to right, #ff0084, #33001b); */
 }
 
+@media screen and (max-width:1920px){
+  .WorkFLow{
+      width: 90%;
+  }
+}
+
 .work-navbar{
   display: flex;
   justify-content: space-between;
@@ -28,6 +34,12 @@
   justify-content: space-between;
   align-items: center;
   width: 65%;
+}
+
+@media screen and (max-width:1920px){
+  .info-project-nav{
+      width: 40%;
+  }
 }
 
 .name-user{
@@ -101,6 +113,7 @@
 
 .Title-Task{
   color: white;
+  cursor: pointer;
 }
 
 .task-asigned{

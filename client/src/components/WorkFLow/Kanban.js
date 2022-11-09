@@ -7,6 +7,10 @@ import "../../styles/TaskCard.css"
 import { GrAddCircle } from "react-icons/gr";
 import { IoMdAdd } from "react-icons/io";
 
+import Box from '@mui/material/Box';
+import Modal from '@mui/material/Modal';
+import TaskNewCard from '../TaskNewCard';
+
 const Container = styled.div`
   display: flex;
   height: auto;
@@ -47,6 +51,22 @@ const Title = styled.span`
 `;
 
 const Kanban = () => {
+
+// CODIGO MODAL TAREA
+const style = {
+  position: 'absolute',
+  top: '50%',
+  left: '50%',
+  backgroundcolor: 'white',
+  transform: 'translate(-50%, -50%)',
+  boxShadow: 24,
+};
+
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
+
   const [columns, setColumns] = useState(columnsFromBackend);
 
   const onDragEnd = (result, columns, setColumns) => {
@@ -85,6 +105,17 @@ const Kanban = () => {
     }
   };
   return (
+    <div>
+      <Modal
+        open={open}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <TaskNewCard />
+          </Box>
+      </Modal>
     <DragDropContext
       onDragEnd={(result) => onDragEnd(result, columns, setColumns)}
     >
@@ -100,7 +131,7 @@ const Kanban = () => {
                   >
                     <div className='TaskList'>
                       <Title>{column.title}</Title>
-                      <IoMdAdd className='Title-Task'/>
+                      <IoMdAdd onClick={handleOpen} className='Title-Task'/>
                     </div>
                     {column.items.map((item, index) => (
                       <TaskCard key={item} item={item} index={index}
@@ -115,6 +146,7 @@ const Kanban = () => {
         </TaskColumnStyles>
       </Container>
     </DragDropContext>
+    </div>
   );
 };
 

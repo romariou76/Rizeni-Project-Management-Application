@@ -28,6 +28,19 @@
   font-size: 0.9rem;
 }
 
+.type-space-style{
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: -1rem;
+}
+
+.select-project{
+  background: transparent;
+  padding: 0.2rem 0;
+  font-size: 14px;
+  width: 350px;
+}
+
 .hero-modal{
   width: 60%;
   display: flex;
@@ -46,11 +59,18 @@
 .text-area-space{
   width: 350px;
   height: 100px;
+  margin-bottom: 1.5rem;
   background-color: rgb(250, 250, 250);
 }
 
 .title-single-style{
   font-size: 0.9rem;
+}
+
+.title-description-style{
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: -1rem;
 }
 
 .text-area-space:hover{
@@ -62,8 +82,7 @@
 }
 
 .continue-bottom{
-  width: 350px;
-  padding: .9rem;
+  padding: .9rem 150px;
   border-radius: .3rem;
   color: white;
   font-weight: bold;
