@@ -1,12 +1,12 @@
 .NavbarMain{
   display: flex;
   justify-content: space-between;
-  background-color: rgb(122, 122, 255);
+  background-color: rgb(106, 0, 188);
   color: white;
   padding: .7rem;
   list-style-type: none;
   margin: 0;
-  box-shadow: rgba(122, 122, 255) 0px 25px 20px -20px;
+  box-shadow: rgb(106, 0, 188) 0px 25px 20px -20px;
 }
 
 li{
@@ -82,11 +82,11 @@ li{
 }
 
 .button-modal{
-  color: white;
+  color: rgb(0, 0, 0);
   outline: none;
   border: none;
   font-weight: bold;
-  background-color: blue;
+  background-color: rgb(255, 197, 126);
   border-radius: 0.2rem;
   padding: 0.6rem 1rem;
 }

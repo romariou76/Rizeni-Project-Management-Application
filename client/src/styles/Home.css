@@ -1,0 +1,20 @@
+.home-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-container-links{
+  display: flex;
+  flex-direction: column;
+}
+
+.project-name-link{
+  padding: 1rem;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  background-color: rgb(179, 135, 255);
+}

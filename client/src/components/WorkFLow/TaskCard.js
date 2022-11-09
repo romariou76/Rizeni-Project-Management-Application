@@ -54,6 +54,14 @@ const TaskCard = ({ item, index }) => {
                 <FaRegUser className='icon-task-FaRegUser'/>
                 <HiOutlineEye className='icon-task-HiOutlineEye'/>   
               </div>
+
+              {/* <span>
+                  {new Date(item.Due_Date).toLocaleDateString('es-pe', {
+                    month: 'short',
+                    day: '2-digit',
+                  })}
+                </span> */}
+
           </div>
           </TaskInformation>
         </div>

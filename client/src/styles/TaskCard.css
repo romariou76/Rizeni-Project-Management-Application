@@ -1,5 +1,5 @@
 .WorkFlow{
-  /* background-color: slateblue; */
+  height: 100vh;
 }
 
 .column-container{
@@ -17,8 +17,9 @@
   align-items: center;
   margin-bottom: 1rem;
   width: 100%;
-  background-color: white;
-  box-shadow: rgb(255, 255, 255) 0px 25px 20px -20px;
+  border-bottom: 1px solid white;
+  background-color: rgba(41, 50, 80, 0);
+  /* box-shadow: rgb(255, 255, 255) 0px 25px 20px -20px; */
 }
 
 .info-project-nav{
@@ -35,9 +36,11 @@
 }
 
 .name-project{
-  margin-left: 1rem;
+  margin-left: 2rem;
   font-weight: bold;
   font-size: 1.2rem;
+  color: white;
+  margin-right: 1rem;
 }
 
 .name-org{
@@ -45,6 +48,7 @@
   background-color: #9970ae5c;
   padding: .5rem;
   border-radius: .2rem;
+  color: white;
 }
 
 .avatar-group{
@@ -56,10 +60,13 @@
   padding: .5rem;
   border-radius: .2rem;
   font-weight: bold;
+  color: white;
 }
 
 .opciones-nav{
+  font-weight: bold;
   margin-right: 1rem;
+  color: white;
 }
 
 .TaskList{
@@ -89,6 +96,10 @@
 
 .title-task{
   font-weight: bold;
+  color: white;
+}
+
+.Title-Task{
   color: white;
 }
 

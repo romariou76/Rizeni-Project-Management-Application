@@ -4,6 +4,8 @@ import { columnsFromBackend } from './KanbanData';
 import { DragDropContext, Droppable } from 'react-beautiful-dnd';
 import TaskCard from './TaskCard';
 import "../../styles/TaskCard.css"
+import { GrAddCircle } from "react-icons/gr";
+import { IoMdAdd } from "react-icons/io";
 
 const Container = styled.div`
   display: flex;
@@ -16,7 +18,7 @@ const TaskList = styled.div`
   min-height: 100px;
   display: flex;
   flex-direction: column;
-  background: #f3f3f37d;
+  background: ;
   min-width: 300px;
   border-radius: 5px;
   padding: 15px;
@@ -37,7 +39,7 @@ const TaskColumnStyles = styled.div`
 `;
 
 const Title = styled.span`
-  color: black;
+  color: white;
   font-weight: bold;
   padding: 2px 10px;
   border-radius: 5px;
@@ -97,8 +99,8 @@ const Kanban = () => {
                     {...provided.droppableProps}
                   >
                     <div className='TaskList'>
-                      <Title className='Title-Task'>{column.title}</Title>
-                      <p>....</p>
+                      <Title>{column.title}</Title>
+                      <IoMdAdd className='Title-Task'/>
                     </div>
                     {column.items.map((item, index) => (
                       <TaskCard key={item} item={item} index={index}
