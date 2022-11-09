@@ -10,7 +10,7 @@ import DashboardPage from "./components/DashboardPage";
 import WorkFlow from "./components/WorkFLow/WorkFLow"
 import Analisis from "./components/Analisis";
 // import Material from "./pages/Material"
-import CreateProject from './pages/CreateProject';
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
          <Route path="/" element={<LandingPage />} ></Route>
          <Route path="/register" element={<RegisterPage />} />
          <Route path="/login" element={<LoginPage />} />
-         <Route path="/create" element={<CreateProject />} />
+         <Route path="/home" element={<Home />} />
       
          <Route path="/menu" element={<MenuPage  />} >
            <Route path="/menu/collaborators" element={<Collaborators  />} />

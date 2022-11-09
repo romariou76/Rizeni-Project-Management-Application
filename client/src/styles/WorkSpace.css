@@ -1,6 +1,6 @@
 .WorkSpace{
   width: auto;
-  height: 100vh;
+  height: auto;
   z-index: 0;
   display: flex;
   background-color: rgb(255, 255, 255);
@@ -14,7 +14,7 @@
 }
 
 .form-modal{
-  width: 50%;
+  width: 40%;
   height: auto;
   padding: 2rem 6rem;
 }
