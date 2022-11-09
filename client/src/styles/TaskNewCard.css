@@ -1,0 +1,47 @@
+.modal-task-create{
+    width: 250px;
+    height: auto;
+    background-color: rgb(238, 235, 235);
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  
+  .task-new-title{
+    margin-top: -.4rem;
+    font-weight: bold;
+  }
+  
+  .input-new-task{
+    width: 230px;
+    height: 20px;
+    padding: .5rem;
+    border: none;
+    border-radius: .2rem;
+    background-color: white;
+    box-shadow: none;
+    overflow: hidden;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 1rem;
+    resize: none;
+  }
+  
+  .input-new-task:focus{
+    outline: none;
+  }
+  
+  .asignar-task-flex{
+    display: flex;
+  }
+  
+  .save-button-task{
+    border: none;
+    border-radius: .3rem;
+    padding: .5rem;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(59, 121, 255);
+  }
+  
+  .save-button-task:hover{
+    background-color: rgb(19, 57, 228);
+  }

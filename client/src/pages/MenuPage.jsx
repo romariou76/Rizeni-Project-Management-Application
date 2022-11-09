@@ -11,7 +11,7 @@ function MenuPage() {
                 </div>
                 <Sidebar />
             </div>
-            <NavPage className="nav-page-content" />
+            <NavPage/>
         </div>
     );
 }
