@@ -1,4 +1,4 @@
-import "../styles/TaskNewCard.css"
+import "../../styles/TaskCard.css"
 
 function TaskNewCard() {
     return (

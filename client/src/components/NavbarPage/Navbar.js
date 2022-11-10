@@ -1,8 +1,8 @@
-import { FaUserCircle } from "react-icons/fa";
-import { IoIosNotifications } from "react-icons/io";
+// import { FaUserCircle } from "react-icons/fa";
+// import { IoIosNotifications } from "react-icons/io";
 import { FaRProject } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import "../styles/Navbar.css";
+import "./Navbar.css";
 import React from "react";
 
 function Navbar() {
@@ -10,11 +10,11 @@ function Navbar() {
     <div className="Navbar">
       <div style={{ float: "left" }} className="logo">
         <FaRProject className="FaRProject" />
-        <a className="rizeni">IZENI</a>
+        <a href="#rizeni" className="rizeni">IZENI</a>
       </div>
 
-      <a>Home</a>
-      <a>About</a>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
       <div className="register-button"><Link to="/login">Ingresar</Link></div>
 
       {/* <a >

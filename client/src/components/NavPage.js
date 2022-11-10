@@ -1,10 +1,10 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Collaborators from "./Collaborators";
-import DashboardPage from "./DashboardPage";
+import Collaborators from "./RRHH/Collaborators";
+import DashboardPage from "./Dashboard/DashboardPage";
 import WorkFlow from "./WorkFLow/WorkFLow"
-import Profile from "./Profile";
-import Analisis from "./Analisis";
+import Profile from "./Profile/Profile";
+import Analisis from "./Analisis/Analisis";
 
 const NavPage = () => {
     return (

@@ -1,6 +1,6 @@
-import "../styles/Collaborators.css"
+import "./Collaborators.css"
 import Collaborator from "./Collaborator";
-import UI from "../images/ui.png"
+import UI from "../../images/ui.png"
 
 function Collaborators() {
     return (

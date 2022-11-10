@@ -1,7 +1,7 @@
 import React from "react";
 import hero from "../svg/logo6.svg";
 import "../styles/LandingPage.css";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarPage/Navbar";
 import { Link } from "react-router-dom";
 
 function LandingPage() {
@@ -17,7 +17,7 @@ function LandingPage() {
           <Link className="login-button" to="/register">Registrate ahora!</Link>
         </div>
         <div className="Landing-picture">
-          <img className="hero-image" src={hero}></img>
+          <img className="hero-image" src={hero} alt="hero-img"></img>
         </div>
 
       </div>

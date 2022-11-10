@@ -1,4 +1,4 @@
-import "../styles/Menu.css";
+import "../../styles/Menu.css";
 
 import { MdDashboardCustomize } from "react-icons/md";
 import { BiMessageDetail } from "react-icons/bi";

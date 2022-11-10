@@ -4,12 +4,12 @@ import { columnsFromBackend } from './KanbanData';
 import { DragDropContext, Droppable } from 'react-beautiful-dnd';
 import TaskCard from './TaskCard';
 import "../../styles/TaskCard.css"
-import { GrAddCircle } from "react-icons/gr";
+// import { GrAddCircle } from "react-icons/gr";
 import { IoMdAdd } from "react-icons/io";
 
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
-import TaskNewCard from '../TaskNewCard';
+import TaskNewCard from './TaskNewCard';
 
 const Container = styled.div`
   display: flex;

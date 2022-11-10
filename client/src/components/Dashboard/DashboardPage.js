@@ -1,12 +1,12 @@
-import avatar from "../svg/user.svg"
-import "../styles/Dashboard.css"
+import avatar from "../../svg/user.svg"
+import "./Dashboard.css"
 
 function DashboardPage() {
     return ( 
         <div className="dashboard-content">
             <div className="title-area">
                 <p>Dashboard</p>
-                <img className="avatar" src={avatar}></img>
+                <img className="avatar" src={avatar} alt="avatar"></img>
             </div>
             <div className="participation">
                 <div className="participation-content">Participacion</div>

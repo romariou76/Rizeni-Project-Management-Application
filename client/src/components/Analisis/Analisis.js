@@ -1,4 +1,4 @@
-import "../styles/Analisis.css"
+import "./Analisis.css"
 
 function Analisis() {
   return ( 
