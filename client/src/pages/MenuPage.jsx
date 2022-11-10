@@ -1,13 +1,14 @@
 import Sidebar from "../components/Sidebar/Sidebar";
 import NavPage from "../components/NavPage"
 import "../styles/Menu.css"
+import rizeni from "../images/logorizeni.png"
 
 function MenuPage() {
     return (
         <div className="Menu-container">
             <div className="Menu">
                 <div className="menu-main">
-                <h4>RIZENI</h4>
+                <img alt="logorizeni" src={rizeni} className="logo-rizeni"></img>
                 </div>
                 <Sidebar />
             </div>

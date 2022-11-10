@@ -23,11 +23,14 @@
 }
 
 .menu-main{
-    padding: 10px;
-    text-align: center;
+    padding: 24.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #090f62;
+    border-bottom: solid 1px white;
 }
 
-.menu-main h4{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.logo-rizeni{
+    width: 130px;
 }
