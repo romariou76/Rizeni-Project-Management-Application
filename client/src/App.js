@@ -11,6 +11,7 @@ import WorkFlow from "./components/WorkFLow/WorkFLow"
 import Analisis from "./components/Analisis/Analisis";
 // import Material from "./pages/Material"
 import Home from './pages/Home';
+import Pruebas from "./pages/Pruebas/Pruebas";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
          <Route path="/" element={<LandingPage />} ></Route>
          <Route path="/register" element={<RegisterPage />} />
          <Route path="/login" element={<LoginPage />} />
+         <Route path="/pruebas" element={<Pruebas />} />
          <Route path="/home" element={<Home />} />
       
          <Route path="/menu" element={<MenuPage  />} >

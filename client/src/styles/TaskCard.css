@@ -103,12 +103,13 @@
 .primary-details{
   border-bottom: 1px solid white;
   padding: 0px 17px;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1.4rem;
 }
 
 .title-task{
   font-weight: bold;
   color: white;
+  margin-top: .1rem;
 }
 
 .Title-Task{
@@ -119,12 +120,13 @@
 .task-asigned{
   color: rgb(183, 183, 183);
   font-size: 0.8rem;
-  margin-top: -0.8rem;
+  margin-top: .2rem;
 }
 
 .task-info{
   color: rgb(241, 233, 233);
   font-size: 0.7rem;
+  margin-top: .4rem;
 }
 
 .icon-task-TiMessages{

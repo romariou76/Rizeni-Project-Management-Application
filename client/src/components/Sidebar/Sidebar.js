@@ -5,7 +5,6 @@ import { NavLink } from 'react-router-dom';
 
 const Sidebar = () => {
     return (
-            <section>
                 <div className='sidebarcolor'>
                     {
                         SidebarData.map((item, index) =>{
@@ -20,7 +19,6 @@ const Sidebar = () => {
                         })
                     }
                 </div>
-            </section>
      );
 }
  
