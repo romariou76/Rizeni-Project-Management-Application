@@ -6,13 +6,6 @@
   background-color: rgb(255, 255, 255);
 }
 
-.navbar{
-  width: 100%;
-  height: 8vh;
-  background-color: darkblue;
-  position: fixed;
-}
-
 .form-modal{
   width: 40%;
   height: auto;

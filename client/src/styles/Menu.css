@@ -5,6 +5,10 @@
     overflow-x: hidden;
 }
 
+.Menu-container::-webkit-scrollbar{
+    display: none;
+}
+
 .Menu{
     display: flex;
     flex-direction: column;
