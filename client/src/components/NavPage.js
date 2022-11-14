@@ -5,6 +5,7 @@ import DashboardPage from "./Dashboard/DashboardPage";
 import WorkFlow from "./WorkFLow/WorkFLow"
 import Profile from "./Profile/Profile";
 import Analisis from "./Analisis/Analisis";
+import Appp from '../app/Appp';
 
 const NavPage = () => {
     return (
@@ -14,6 +15,7 @@ const NavPage = () => {
                 <Route path="/workflow" element={<WorkFlow/>} />
                 <Route path="/analisis" element={<Analisis />} />
                 <Route path="/profile" element={<Profile />} />
+                <Route path="/new" element={<Appp />} />
             </Routes>
      );
 }

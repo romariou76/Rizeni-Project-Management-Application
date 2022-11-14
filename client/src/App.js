@@ -12,6 +12,7 @@ import Analisis from "./components/Analisis/Analisis";
 // import Material from "./pages/Material"
 import Home from './pages/Home';
 import Pruebas from "./pages/Pruebas/Pruebas";
+import Appp from './app/Appp';
 
 function App() {
   return (
@@ -21,11 +22,13 @@ function App() {
          <Route path="/login" element={<LoginPage />} />
          <Route path="/pruebas" element={<Pruebas />} />
          <Route path="/home" element={<Home />} />
+
       
          <Route path="/menu" element={<MenuPage  />} >
            <Route path="/menu/collaborators" element={<Collaborators  />} />
            <Route path="/menu/dashboard" element={<DashboardPage/>} />
            <Route path="/menu/workflow" element={<WorkFlow />} />
+            <Route path="/menu/new" element={<Appp />} />
            <Route path="/menu/profile" element={<Profile />} />
            <Route path="/menu/analisis" element={<Analisis />} />
          </Route>

@@ -41,8 +41,8 @@ export const SidebarData=[
     },
 
     {
-        title: "Estimation",
-        path: "/profile",
+        title: "new",
+        path: "/menu/new",
         icon: <VscCalendar />
     },
 
