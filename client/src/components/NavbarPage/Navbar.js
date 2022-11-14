@@ -1,7 +1,6 @@
 // import { FaUserCircle } from "react-icons/fa";
 // import { IoIosNotifications } from "react-icons/io";
 import { FaRProject } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import "./Navbar.css";
 import React from "react";
 import LoginPage from '../../pages/LoginPage';
