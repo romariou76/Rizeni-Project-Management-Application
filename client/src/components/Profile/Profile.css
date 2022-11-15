@@ -1,25 +1,30 @@
-.Profile-content{
+.Profile-col{
     width: 90%;
+    overflow-y: scroll;
+}
+
+.Profile{
     display: flex;
     height: 100vh;
     background-color: rgb(255, 255, 255);
+}
+
+.Profile-content{
     padding: 1rem;
-    overflow-y: scroll;
 }
 
 .profile-info{
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 80%;
     background-color: aliceblue;
     height: 90vh;
 }
 
 .overview{
     width: 100%;
-    height: 10rem;
-    background-color: blue;
+    height: auto;
     margin-bottom: 1rem;
 }
 
@@ -43,7 +48,10 @@
 }
 
 .profile{
-    width: 25%;
-    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
     height: 100vh;
+    box-shadow: rgba(63, 63, 63, 0.075) 0px 0px 7px 7px;
 }
