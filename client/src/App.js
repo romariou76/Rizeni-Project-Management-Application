@@ -7,6 +7,7 @@ import { Routes, Route } from "react-router-dom";
 import Collaborators from "./components/RRHH/Collaborators";
 import Profile from "./components/Profile/Profile";
 import DashboardPage from "./components/Dashboard/DashboardPage";
+import Roadmap from "./components/Roadmap/Roadmap";
 import WorkFlow from "./components/WorkFLow/WorkFLow"
 import Analisis from "./components/Analisis/Analisis";
 // import Material from "./pages/Material"
@@ -27,6 +28,7 @@ function App() {
          <Route path="/menu" element={<MenuPage  />} >
            <Route path="/menu/collaborators" element={<Collaborators  />} />
            <Route path="/menu/dashboard" element={<DashboardPage/>} />
+           <Route path="/menu/roadmap" element={<Roadmap/>} />
            <Route path="/menu/workflow" element={<WorkFlow />} />
             <Route path="/menu/new" element={<Appp />} />
            <Route path="/menu/profile" element={<Profile />} />

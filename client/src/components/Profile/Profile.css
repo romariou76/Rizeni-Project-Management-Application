@@ -31,20 +31,29 @@
 .dendem{
     width: 100%;
     height: 15rem;
-    background-color: tomato;
     margin-bottom: 1rem;
 }
 
 .density{
-    width: 20remnp;
-    height: 10rem;
-    background-color: rgb(255, 0, 0);
+    width: 25.6rem;
+    background-color: rgb(252, 251, 255);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.demography{
+    background-color: rgb(255, 255, 255);
+    width: 25.6rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1.7rem;
+    padding: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .active-users{
     width: 100%;
     height: 10rem;
-    background-color: steelblue;
+    background-color: rgb(255, 255, 255);
 }
 
 .profile{

@@ -1,57 +1,35 @@
 import Avatar from "./Avatar.js";
 import React from "react";
 import "./Profile.css";
-import { BiTask } from "react-icons/bi";
 import Stat from "./Stat.js";
 import NameUser from "./NameUser.js";
 import Navbar from './Navbar';
+import CardStat from "./CardStat.js";
+import Chart from "./charts/Chart"
+import AreaChart from "./charts/AreaChart";
 
-function Profile() {
+
+function Profile(props) {
   return (
     <div className="Profile-col">
       <Navbar />
       <div className="Profile">
         <div className="profile-info">
-          <p>Overview</p>
+          <p className="text-black font-bold text-lg">Overview</p>
 
-          <overview className="overview pr-16">
+          <overview className="overview pr-16 mt-2">
             <div className="flex justify-between">
-
-              <div className="flex-row card rounded-lg w-48 items-center p-4 gap-6 bg-yellow-400 text-primary-content">
-                <BiTask className="w-8 h-8" />
-                <div>
-                  <h2 className="card-title">84%</h2>
-                  <p>Completadas</p>
-                </div>
-              </div>
-              <div className="flex-row card rounded-lg w-48 items-center p-4 gap-6 bg-purple-700 text-primary-content">
-                <BiTask className="w-8 h-8" />
-                <div>
-                  <h2 className="card-title">84%</h2>
-                  <p>Completadas</p>
-                </div>
-              </div>
-              <div className="flex-row card rounded-lg w-48 items-center p-4 gap-6 bg-red-400 text-primary-content">
-                <BiTask className="w-8 h-8" />
-                <div>
-                  <h2 className="card-title">84%</h2>
-                  <p>Completadas</p>
-                </div>
-              </div>
-              <div className="flex-row card rounded-lg w-48 items-center p-4 gap-6 bg-green-500 text-primary-content">
-                <BiTask className="w-8 h-8" />
-                <div>
-                  <h2 className="card-title">84%</h2>
-                  <p>Completadas</p>
-                </div>
-              </div>
+              <CardStat />
             </div>
-
           </overview>
-
-          <div className="dendem">
-            <density className="density"></density>
-            <demography className="demography"></demography>
+        <p className="text-black font-bold text-lg">Work density</p>
+          <div className="dendem flex mt-2">
+            <div className="density rounded-lg">
+               <AreaChart />
+            </div>
+            <demography className="demography rounded-lg">
+               <Chart />
+            </demography>
           </div>
 
           {/* <div className="active-users"></div> */}

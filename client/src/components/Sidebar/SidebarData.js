@@ -24,7 +24,7 @@ export const SidebarData=[
 
     {
         title: "Roadmap",
-        path: "/menu/profile",
+        path: "/menu/roadmap",
         icon: <BiMessageDetail />
     },
 
