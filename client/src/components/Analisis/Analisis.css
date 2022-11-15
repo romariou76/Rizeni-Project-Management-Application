@@ -1,7 +1,7 @@
 .Analisis-container{
   display: flex;
   flex-direction: column;
-  width: 85%;
+  width: 90%;
   height: 100vh;
   padding: 1rem;
   background-color: var(--main-bg-color);

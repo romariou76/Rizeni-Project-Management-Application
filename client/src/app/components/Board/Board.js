@@ -11,7 +11,7 @@ function Board(props) {
   const [showDropdown, setShowDropdown] = useState(false);
 
   return (
-    <div className="board">
+    <div className="board-kanban">
       <div className="board_header">
         <p className="board_header_title">
           {props.board?.title}
@@ -21,13 +21,13 @@ function Board(props) {
           className="board_header_title_more"
           onClick={() => setShowDropdown(true)}
         >
-          <MoreHorizontal />
+          <MoreHorizontal/>
           {showDropdown && (
             <Dropdown
               class="board_dropdown"
               onClose={() => setShowDropdown(false)}
             >
-              <butoon onClick={() => props.removeBoard()}>Delete board</butoon>
+              <p onClick={() => props.removeBoard()}>Delete board</p>
             </Dropdown>
           )}
         </div>
@@ -45,7 +45,7 @@ function Board(props) {
           />
         ))}
         <Editable
-          text="+ Add Card"
+          text="+ Agregar tarea"
           placeholder="Enter Card Title"
           displayClass="board_add-card"
           editClass="board_add-card_edit"

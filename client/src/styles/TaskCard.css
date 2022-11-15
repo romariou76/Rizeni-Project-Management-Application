@@ -1,21 +1,10 @@
-.WorkFlow{
-  height: 100vh;
+.Workflow{
+  width: 900px;
+  background-color: yellow;
+  overflow-x: scroll;
 }
 
-.column-container{
-}
 
-.WorkFLow{
-  width: 85%;
-  background-color: #19213C;
-  /* background: linear-gradient(to right, #ff0084, #33001b); */
-}
-
-@media screen and (max-width:1920px){
-  .WorkFLow{
-      width: 90%;
-  }
-}
 
 .work-navbar{
   display: flex;
@@ -33,14 +22,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 65%;
+  width: 55%;
 }
 
-@media screen and (max-width:1920px){
-  .info-project-nav{
-      width: 40%;
-  }
-}
 
 .name-user{
   font-weight: bold;

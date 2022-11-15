@@ -29,21 +29,15 @@ export const SidebarData=[
     },
 
     {
-        title: "Tareas",
-        path: "/menu/workflow",
-        icon: <MdTask />
-    },
-
-    {
         title: "Reportes",
         path: "/menu/analisis",
         icon: <SiGoogleanalytics />
     },
 
     {
-        title: "new",
+        title: "Tareas",
         path: "/menu/new",
-        icon: <VscCalendar />
+        icon: <MdTask />
     },
 
     {
@@ -56,6 +50,13 @@ export const SidebarData=[
         title: "Colaboradores",
         path: "/menu/collaborators",
         icon: <FaUsers />
+    },
+
+
+    {
+        title: "Tareas",
+        path: "/menu/workflow",
+        icon: <MdTask />
     },
 
     {

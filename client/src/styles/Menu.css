@@ -13,18 +13,18 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    min-width: 15%;
+    min-width: 10%;
     background-color: #090f62;
     color: #fff;
     height: 100vh;
     border-top-right-radius: 30px;
 }
 
-@media screen and (max-width:1920px){
+/* @media screen and (max-width:1920px){
     .Menu{
         min-width: 10%;
     }
-}
+} */
 
 .menu-main{
     padding: 24.5px;

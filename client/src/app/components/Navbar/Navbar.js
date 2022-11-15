@@ -1,11 +1,11 @@
-import Kanban from "./Kanban";
-import "../../styles/TaskCard.css";
 import Avatar from "@mui/material/Avatar";
 import AvatarGroup from "@mui/material/AvatarGroup";
-import React, { useEffect, useState } from 'react'
+import "./Navbar.css";
+import React, { useState, useEffect } from 'react';
 
-function WorkFLow() {
+function Mavbar() {
 
+  // Retornando datos del proyecto
   const [nombre, setNombre] = useState('');
 
   const getData = () => {
@@ -16,12 +16,10 @@ function WorkFLow() {
       setNombre(getData());
   }, []);
 
-  return (
-    <div className="WorkfLow">
-      <div className="work-navbar">
-
-        <div className="info-project-nav">
-          <p className="name-project">Proyecto { nombre }</p>
+  return ( 
+    <div className="work-navbar">
+    <div className="workspace-nav">
+          <p className="name-project">Proyecto {nombre}</p>
           <p className="name-org">Empresa Romario</p>
         
           <AvatarGroup className="avatar-group" max={6}>
@@ -36,12 +34,10 @@ function WorkFLow() {
           <p className="invitar-buttom">Invitar</p>
         </div>
         <div>
-          <p className="opciones-nav">opciones</p>
+          <p className="opciones-nav">Compartir</p>
         </div>
       </div>
-      <Kanban />
-    </div>
-  );
+   );
 }
 
-export default WorkFLow;
+export default Mavbar;

@@ -48,13 +48,13 @@ function Card(props) {
         />
       )}
       <div
-        className="card"
+        className="card-task"
         draggable
         onDragEnd={() => props.dragEnded(props.boardId, id)}
         onDragEnter={() => props.dragEntered(props.boardId, id)}
         onClick={() => setShowModal(true)}
       >
-        <div className="card_top">
+        <div className="card-task_top">
           <div className="card_top_labels">
             {labels?.map((item, index) => (
               <label key={index} style={{ backgroundColor: item.color }}>
@@ -82,7 +82,7 @@ function Card(props) {
             )}
           </div>
         </div>
-        <div className="card_title">{title}</div>
+        <div className="card_title-task">{title}</div>
         <div className="card_footer">
           {date && (
             <p className="card_footer_item">

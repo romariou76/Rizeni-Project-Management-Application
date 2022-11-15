@@ -119,12 +119,12 @@ function CardInfo(props) {
         <div className="cardinfo_box">
           <div className="cardinfo_box_title">
             <Type />
-            <p>Title</p>
+            <p>Titulo</p>
           </div>
           <Editable
             defaultValue={values.title}
             text={values.title}
-            placeholder="Enter Title"
+            placeholder="Ingrese el titulo"
             onSubmit={updateTitle}
           />
         </div>
@@ -132,11 +132,11 @@ function CardInfo(props) {
         <div className="cardinfo_box">
           <div className="cardinfo_box_title">
             <List />
-            <p>Description</p>
+            <p>Descripcion</p>
           </div>
           <Editable
             defaultValue={values.desc}
-            text={values.desc || "Add a Description"}
+            text={values.desc || "Añada una descripcion"}
             placeholder="Enter description"
             onSubmit={updateDesc}
           />
@@ -144,10 +144,11 @@ function CardInfo(props) {
 
         <div className="cardinfo_box">
           <div className="cardinfo_box_title">
-            <Calendar />
-            <p>Date</p>
+            <Calendar className="calendar-icon"/>
+            <p>Fecha a cumplir</p>
           </div>
           <input
+            className="Calendar"
             type="date"
             defaultValue={values.date}
             min={new Date().toISOString().substr(0, 10)}
@@ -158,7 +159,7 @@ function CardInfo(props) {
         <div className="cardinfo_box">
           <div className="cardinfo_box_title">
             <Tag />
-            <p>Labels</p>
+            <p>Etiquetas</p>
           </div>
           <div className="cardinfo_box_labels">
             {values.labels?.map((item, index) => (
@@ -182,8 +183,8 @@ function CardInfo(props) {
             ))}
           </ul>
           <Editable
-            text="Add Label"
-            placeholder="Enter label text"
+            text="Añadir Etiqueta"
+            placeholder="Ingrese..."
             onSubmit={(value) =>
               addLabel({ color: selectedColor, text: value })
             }
@@ -193,7 +194,7 @@ function CardInfo(props) {
         <div className="cardinfo_box">
           <div className="cardinfo_box_title">
             <CheckSquare />
-            <p>Tasks</p>
+            <p>Tareas</p>
           </div>
           <div className="cardinfo_box_progress-bar">
             <div
@@ -208,6 +209,7 @@ function CardInfo(props) {
             {values.tasks?.map((item) => (
               <div key={item.id} className="cardinfo_box_task_checkbox">
                 <input
+                  className="checkbox checkbox-warning"
                   type="checkbox"
                   defaultChecked={item.completed}
                   onChange={(event) =>
@@ -220,8 +222,8 @@ function CardInfo(props) {
             ))}
           </div>
           <Editable
-            text={"Add a Task"}
-            placeholder="Enter task"
+            text={"Agrega una Subtarea"}
+            placeholder="Ingrese..."
             onSubmit={addTask}
           />
         </div>

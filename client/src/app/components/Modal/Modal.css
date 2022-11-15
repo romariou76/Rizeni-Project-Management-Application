@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: center;
   z-index: 20;
+  color: black;
 }
 
 .modal_content {

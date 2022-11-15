@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-
 import Board from "./components/Board/Board";
-
+import Navbar from "./components/Navbar/Navbar"
 import "./App.css";
 import Editable from "./components/Editabled/Editable.js";
 
@@ -121,8 +120,8 @@ function Appp() {
   }, [boards]);
 
   return (
-    <div className="app">
-      
+    <div className="app-back-main">
+      <Navbar />
       <div className="app_boards_container">
         <div className="app_boards">
           {boards.map((item) => (
@@ -149,7 +148,7 @@ function Appp() {
           </div>
         </div>
       </div>
-    </div>
+  </div>
   );
 }
 

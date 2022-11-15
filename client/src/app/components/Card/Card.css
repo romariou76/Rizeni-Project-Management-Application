@@ -1,13 +1,13 @@
-.card {
+.card-task {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
   background-color: #fff;
   border-radius: 10px;
 }
 
-.card_top {
+.card-task_top {
   display: flex;
   align-items: flex-start;
 }
@@ -17,6 +17,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
+  margin-top: -2px;
   font-size: 14px;
   line-height: 21px;
 }
@@ -39,12 +40,13 @@
   transition: 200ms;
 }
 
-.card:hover .card_top_more {
+.card-task:hover .card_top_more {
   opacity: 1;
 }
 
-.card_title {
+.card_title-task {
   flex: 1;
+  color: black;
   font-weight: bold;
   font-size: 1rem;
   line-height: 1.875rem;
@@ -59,7 +61,8 @@
 .card_footer_item {
   border-radius: 40px;
   padding: 4px 12px;
-  background-color: #f8f8f8;
+  margin-bottom: -2px;
+  background-color: #e7e6e6;
   color: #000;
   width: fit-content;
   font-size: 14px;
