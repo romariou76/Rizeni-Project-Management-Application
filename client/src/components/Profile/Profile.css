@@ -1,6 +1,6 @@
 .Profile-col{
     width: 90%;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 .Profile{

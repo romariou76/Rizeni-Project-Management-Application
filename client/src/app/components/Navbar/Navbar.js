@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import Avatar from "@mui/material/Avatar";
 import AvatarGroup from "@mui/material/AvatarGroup";
 import "./Navbar.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 function Navbar() {
 
@@ -17,7 +20,7 @@ function Navbar() {
   }, []);
 
   return (
-    <div className="navbar navbar-index text-white">
+    <div className="navbar navbar-index text-white" data-aos="fade-down">
 
       <div className="navbar-start">
         <div className="dropdown">

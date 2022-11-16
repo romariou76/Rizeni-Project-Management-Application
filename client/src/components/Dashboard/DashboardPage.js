@@ -1,13 +1,13 @@
 import Collaborators from "./Collaborators";
 import "./Dashboard.css"
-import NavbarDashboard from './NavbarDashboard';
+import Navbar from "../../app/components/Navbar/Navbar"
 import Chart from "./Chart"
 
-function DashboardPage() {
+function DashboardPage(props) {
     return (
         <div className="DashboardPage">
 
-            <NavbarDashboard />
+        <Navbar />
             <div className="dashboard-main flex">
 
                 <div className="dashboard-content">
@@ -16,9 +16,43 @@ function DashboardPage() {
                         <Chart />
 
                     </div>
-                    <div className="work-MG-content space-x-4">
+                    <div className="work-MG-content flex justify-start gap-x-8">
                         {/* CARD-RESUMEN-ANALISIS */}
-                            <Collaborators />
+                            <Collaborators
+                                job = "UX UI Design"
+                                name = "Eva Sofia"
+                                progress= "70"
+                                // 
+                                // 
+                            />
+                            <Collaborators
+                                job = "UX UI Design"
+                                name = "Eva Sofia"
+                                progress= "50"
+                                // 
+                                // 
+                            />
+                            <Collaborators
+                                job = "UX UI Design"
+                                name = "Eva Sofia"
+                                progress= "20"
+                                // 
+                                // 
+                            />
+                            <Collaborators
+                                job = "UX UI Design"
+                                name = "Eva Sofia"
+                                progress= "40"
+                                // 
+                                // 
+                            />
+                            <Collaborators
+                                job = "UX UI Design"
+                                name = "Eva Sofia"
+                                progress= "100"
+                                // 
+                                // 
+                            />
                     </div>
                 </div>
 
@@ -39,9 +73,9 @@ function DashboardPage() {
                         <p className="text-sm text-black font-bold">Efficiency</p>
                         <div className="flex space-x-2 mt-4">
                             <div className="radial-progress text-primary" style={{ "--value": "70", "--size": "3rem", "--thickness": "6px" }}><p className="text-xs font-bold text-black">70%</p></div>
-                            <div className="radial-progress text-yellow-500" style={{ "--value": "70", "--size": "3rem", "--thickness": "6px" }}><p className="text-xs font-bold text-black">70%</p></div>
-                            <div className="radial-progress text-green-500" style={{ "--value": "70", "--size": "3rem", "--thickness": "6px" }}><p className="text-xs font-bold text-black">70%</p></div>
-                            <div className="radial-progress text-red-500" style={{ "--value": "70", "--size": "3rem", "--thickness": "6px" }}><p className="text-xs font-bold text-black">70%</p></div>
+                            <div className="radial-progress text-yellow-500" style={{ "--value": "50", "--size": "3rem", "--thickness": "6px" }}><p className="text-xs font-bold text-black">50%</p></div>
+                            <div className="radial-progress text-green-500" style={{ "--value": "20", "--size": "3rem", "--thickness": "6px" }}><p className="text-xs font-bold text-black">20%</p></div>
+                            <div className="radial-progress text-red-500" style={{ "--value": "100", "--size": "3rem", "--thickness": "6px" }}><p className="text-xs font-bold text-black">100%</p></div>
                         </div>
                         <div className="flex justify-center space-x-12 text-black font-bold mt-1">
                             <p>A</p>
