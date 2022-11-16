@@ -10,7 +10,7 @@
   margin: 0px 25px 0px 25px;
   font-weight: 500;
   font-size: 16px;
-  color: white;
+  color: rgb(139, 0, 194);
   cursor: pointer;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .FaRProject {
-  color: white;
+  color: rgb(68, 0, 255);
   margin-left: 25px;
   font-size: 30px;
   margin-top: -8px;
