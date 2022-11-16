@@ -3,11 +3,10 @@ import React from "react";
 import "./Profile.css";
 import Stat from "./Stat.js";
 import NameUser from "./NameUser.js";
-import Navbar from './Navbar';
+import Navbar from '../../app/components/Navbar/Navbar';
 import CardStat from "./CardStat.js";
 import Chart from "./charts/Chart"
 import AreaChart from "./charts/AreaChart";
-
 
 function Profile(props) {
   return (
@@ -15,16 +14,16 @@ function Profile(props) {
       <Navbar />
       <div className="Profile">
         <div className="profile-info">
-          <p className="text-black font-bold text-lg">Overview</p>
+          <p className="text-black font-bold text-lg">Vision General</p>
 
           <overview className="overview pr-16 mt-2">
-            <div className="flex justify-between">
+            <div className="flex justify-start gap-x-2 desktop:justify-start desktop:gap-16">
               <CardStat />
             </div>
           </overview>
-        <p className="text-black font-bold text-lg">Work density</p>
+        <p className="text-black font-bold text-lg">Densidad de trabajo</p>
           <div className="dendem flex mt-2">
-            <div className="density rounded-lg">
+            <div className="density rounded-lg w-96">
                <AreaChart />
             </div>
             <demography className="demography rounded-lg">
