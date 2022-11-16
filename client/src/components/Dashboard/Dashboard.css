@@ -1,11 +1,11 @@
 .DashboardPage{
     width: 90%;
     height: 100vh;
+    background-color: rgb(224, 233, 241);
 }
 
 .dashboard-main{
     display: flex;
-    background-color: var(--main-bg-color);
 }
 
 .dashboard-content{
@@ -37,11 +37,16 @@
 }
 
 .participation{
-    padding: 1rem;
-    width: 100%;
+    margin: 1rem;
+    width: 120vh;
     display: flex;
-    background-color: rgba(187, 115, 84, 0.259);
-    height: 70vh;
+    height: 60vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.tasks-completed-icon{
+    color: rgb(4, 231, 4);
 }
 
 .work-MG-content{
@@ -55,6 +60,7 @@
     background-color: rgb(255, 255, 255);
     width: 20%;
     padding: 1rem;
+    box-shadow: rgba(63, 63, 63, 0.075) 0px 0px 7px 7px;
 }
 
 @media screen and (max-width:1920px){
