@@ -4,32 +4,32 @@ function CardStat(props) {
 
   return (
     <>
-      <div className="flex-row card rounded-lg w-48 items-center p-4 gap-6 bg-yellow-400 text-primary-content">
-        <BiTask className="w-8 h-8" />
+      <div className="flex-row card h-14 rounded-lg w-34 items-center px-2 gap-2 desktop:w-40 desktop:h-20 bg-yellow-400 text-primary-content">
+        <BiTask className="w-6 h-6 desktop:w-8 desktop:h-7" />
         <div>
-          <h2 className="card-title">84%</h2>
-          <p>Completadas</p>
+          <h2 className="text-sm desktop:text-lg ">84%</h2>
+          <p className="text-xs desktop:text-sm">Completadas</p>
         </div>
       </div>
-      <div className="flex-row card rounded-lg w-48 items-center p-4 gap-6 bg-purple-700 text-primary-content">
-        <BiTask className="w-8 h-8" />
+      <div className="flex-row card h-14 rounded-lg w-34 items-center px-2 gap-2 desktop:w-40 desktop:h-20 bg-purple-700 text-primary-content">
+        <BiTask className="w-6 h-6 desktop:w-8 desktop:h-7" />
         <div>
-          <h2 className="card-title">84%</h2>
-          <p>Completadas</p>
+          <h2 className="text-sm desktop:text-lg ">84%</h2>
+          <p className="text-xs desktop:text-sm">Completadas</p>
         </div>
       </div>
-      <div className="flex-row card rounded-lg w-48 items-center p-4 gap-6 bg-red-400 text-primary-content">
-        <BiTask className="w-8 h-8" />
+      <div className="flex-row card h-14 rounded-lg w-34 items-center px-2 gap-2 desktop:w-40 desktop:h-20 bg-red-400 text-primary-content">
+        <BiTask className="w-6 h-6 desktop:w-8 desktop:h-7" />
         <div>
-          <h2 className="card-title">84%</h2>
-          <p>Completadas</p>
+          <h2 className="text-sm desktop:text-lg ">84%</h2>
+          <p className="text-xs desktop:text-sm">Completadas</p>
         </div>
       </div>
-      <div className="flex-row card rounded-lg w-48 items-center p-4 gap-6 bg-green-500 text-primary-content">
-        <BiTask className="w-8 h-8" />
+      <div className="flex-row card h-14 rounded-lg w-34 items-center px-2 gap-2 desktop:w-40 desktop:h-20 bg-green-500 text-primary-content">
+        <BiTask className="w-6 h-6 desktop:w-8 desktop:h-7" />
         <div>
-          <h2 className="card-title">84%</h2>
-          <p>Completadas</p>
+          <h2 className="text-sm desktop:text-lg ">84%</h2>
+          <p className="text-xs desktop:text-sm">Completadas</p>
         </div>
       </div>
     </>

@@ -35,9 +35,23 @@
 }
 
 .density{
-    width: 25.6rem;
+    width: 24rem;
     background-color: rgb(252, 251, 255);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media screen and (min-width:768px){
+    .density{
+        width: 20rem;
+        height: 12rem;
+    }
+}
+
+@media screen and (min-width:1920px){
+    .density{
+        width: 24rem;
+        height: auto;
+    }
 }
 
 .demography{

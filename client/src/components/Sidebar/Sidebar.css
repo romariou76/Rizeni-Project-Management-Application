@@ -1,0 +1,40 @@
+.sidebarcolor{
+    color: white;
+}
+
+.sidebarlink{
+    height: 30px;
+    width: 150px;
+    color: rgba(219, 219, 219, 0.716);
+    margin: 15px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+@media screen and (min-width:1920px){
+    .sidebarlink{
+        font-size: 1.5rem;
+        height: 50px;
+    }
+}
+
+.sidebarlink:hover{
+    color: rgb(255, 255, 255);
+    background-color: #ffffff21;
+}
+
+.title-link{
+    margin-left: 10px;
+    color: rgba(219, 219, 219, 0.716);
+    font-size: 1rem;
+}
+
+.title-link:hover{
+    color: rgb(255, 255, 255);
+}

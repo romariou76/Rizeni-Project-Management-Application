@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   overflow-x: auto;
-  background-color: rgb(20, 7, 54);
+  background-color: #F0F8FF;
 }
 
 .app_boards_container {

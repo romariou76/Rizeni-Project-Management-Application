@@ -11,7 +11,7 @@ function DashboardPage() {
             <div className="dashboard-main flex">
 
                 <div className="dashboard-content">
-                    <div className="participation rounded-lg">
+                    <div className="participation rounded-lg 2xl:rounded-xs">
 
                         <Chart />
 
