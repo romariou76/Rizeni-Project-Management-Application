@@ -1,0 +1,27 @@
+.Task-page{
+  background-color: rgb(224, 233, 241);
+
+}
+
+.tasks-container{
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid rgba(61, 56, 56, 0.226);
+  border-radius: 0.5rem;
+}
+
+.drawer-task{
+  width: 15%;
+  height: 100vh;
+}
+
+.drawer-content{
+  width: 85%;
+  height: 100vh;
+  border-left: 1px solid rgba(61, 56, 56, 0.226);
+}
+
+.brillo{
+  filter: brightness(7.75);
+}
+
