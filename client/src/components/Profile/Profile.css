@@ -34,6 +34,10 @@
     margin-bottom: 1rem;
 }
 
+.activity-user{
+    /* background-color: blue; */
+}
+
 .density{
     width: 24rem;
     background-color: rgb(252, 251, 255);
