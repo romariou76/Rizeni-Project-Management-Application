@@ -55,7 +55,7 @@ export const SidebarData=[
 
     {
         title: "Tareas",
-        path: "/menu/workflow",
+        path: "/menu/tasks",
         icon: <MdTask />
     },
 

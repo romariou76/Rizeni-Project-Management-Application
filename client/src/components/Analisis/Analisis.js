@@ -1,21 +1,21 @@
 import "./Analisis.css"
+import Tab from "./Tab"
+import Navbar from "../../app/components/Navbar/Navbar"
 
 function Analisis() {
   return ( 
     <div className="Analisis-container">
-      <div className="navbar-analisis">
-        <div className="title-analisis">
-          <p>Task Management</p>
-        </div>
-      <div className="navbar-opciones">
-          <p>Day</p>
-          <p>Week</p>
-          <p>Month</p>
-          <p>Year</p>
+
+      <Navbar />
+
+    <div className="box-analisis">
+
+      <div className="content-analisis">
+        <Tab />
       </div>
-      
-      </div>
-      <div className="content-analisis"></div>      
+
+    </div>
+
     </div>
    );
 }
