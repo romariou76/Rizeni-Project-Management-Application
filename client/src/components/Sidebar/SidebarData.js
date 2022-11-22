@@ -22,11 +22,11 @@ export const SidebarData=[
         icon: <MdDashboardCustomize />
     },
 
-    {
-        title: "Roadmap",
-        path: "/menu/roadmap",
-        icon: <BiMessageDetail />
-    },
+    // {
+    //     title: "Roadmap",
+    //     path: "/menu/roadmap",
+    //     icon: <BiMessageDetail />
+    // },
 
     {
         title: "Reportes",
@@ -35,7 +35,7 @@ export const SidebarData=[
     },
 
     {
-        title: "Tareas",
+        title: "Kanban",
         path: "/menu/new",
         icon: <MdTask />
     },

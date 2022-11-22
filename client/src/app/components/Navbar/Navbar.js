@@ -20,7 +20,7 @@ function Navbar() {
   }, []);
 
   return (
-    <div className="navbar navbar-index text-white" data-aos="fade-down">
+    <div className="navbar navbar-index text-white" data-aos="fade-in">
 
       <div className="navbar-start">
         <div className="dropdown">
@@ -33,9 +33,9 @@ function Navbar() {
             <li><a>About</a></li>
           </ul>
         </div>
-        <div className="flex gap-x-4 font-bold navbar-links rounded-lg text-lg">
+        <div className="flex gap-x-4 p-2 font-bold navbar-links rounded-lg text-md">
           <p>Proyecto {nombre}</p>
-          <p>Empresa Yupanna</p>
+          {/* <p>Empresa Yupanna</p> */}
         </div>
         <AvatarGroup className="avatar-group ml-8" max={6}>
             <Avatar alt="Remy Sharp" src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" />

@@ -16,7 +16,7 @@ function DashboardPage(props) {
                         <Chart />
 
                     </div>
-                    <div className="work-MG-content flex justify-start gap-x-8">
+                    <div className="work-MG-content flex justify-start gap-x-5">
                         {/* CARD-RESUMEN-ANALISIS */}
                             <Collaborators
                                 job = "UX UI Design"
@@ -46,13 +46,11 @@ function DashboardPage(props) {
                                 // 
                                 // 
                             />
-                            <Collaborators
+                            {/* <Collaborators
                                 job = "UX UI Design"
                                 name = "Eva Sofia"
                                 progress= "100"
-                                // 
-                                // 
-                            />
+                            /> */}
                     </div>
                 </div>
 

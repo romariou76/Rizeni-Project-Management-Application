@@ -20,8 +20,21 @@
     display: flex;
     flex-direction: column;
     width: auto;
-    height: 26vh;
+    height: auto;
     margin: 1rem;
+}
+
+.filtros-collaborator{
+    width: 90%;
+    display: flex;
+    margin: 1rem;
+    padding: 2rem 2rem 2rem 1rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.select-filtro{
+    width: 30rem;
+    background-color: white;
 }
 
 .overview-p{
@@ -29,8 +42,21 @@
 }
 
 .collaborator-content{
-    display: flex;
-    justify-content: space-around;
+    height: auto;
+}
+
+/*-------------------- COLLABORATOR -----------------*/
+
+.users-badge{
+    background-color: rgba(0, 0, 255, 0.128);
+}
+
+.users-paid-badge{
+    background-color: rgba(255, 0, 0, 0.128);
+}
+
+.users-active-badge{
+    background-color: rgba(0, 255, 0, 0.128);
 }
 
 .roles-content{
@@ -68,11 +94,11 @@
     color: #5d5d5f;
 }
 
-.collaborators-card-content{
+.collaborators-table-content{
     display: flex;
     flex-direction: column;
     width: auto;
-    height: 70vh;
+    height: auto;
     margin: 1rem;
 }
 
@@ -82,6 +108,7 @@
 
 .colaborator-items{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 

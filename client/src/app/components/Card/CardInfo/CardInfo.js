@@ -137,7 +137,7 @@ function CardInfo(props) {
           <Editable
             defaultValue={values.desc}
             text={values.desc || "Añada una descripcion"}
-            placeholder="Enter description"
+            placeholder="Ingrese la descripcion"
             onSubmit={updateDesc}
           />
         </div>

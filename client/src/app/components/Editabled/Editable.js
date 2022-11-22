@@ -32,7 +32,7 @@ function Editable(props) {
             autoFocus
           />
           <div className="editable_edit_footer">
-            <button type="submit">{props.buttonText || "Add"}</button>
+            <button type="submit">{props.buttonText || "Agregar"}</button>
             <X onClick={() => setIsEditable(false)} className="closeIcon" />
           </div>
         </form>

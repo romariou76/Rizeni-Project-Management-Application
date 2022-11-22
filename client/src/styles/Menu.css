@@ -20,11 +20,11 @@
     border-top-right-radius: 30px;
 }
 
-/* @media screen and (max-width:1920px){
-    .Menu{
-        min-width: 10%;
-    }
-} */
+ @media screen and (min-width:1366px){
+.Menu{
+    min-width: 10%;
+}
+}
 
 .menu-main{
     padding: 24.5px;

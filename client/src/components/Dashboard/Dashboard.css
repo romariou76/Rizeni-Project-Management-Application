@@ -19,7 +19,7 @@
     display: none;
 }
 
-@media screen and (max-width:1920px){
+@media screen and (min-width:1366px){
     .dashboard-content{
         width: 85%;
     }
@@ -80,4 +80,3 @@
 .progress-completed{
     transform: rotate(90deg);
 }
-
