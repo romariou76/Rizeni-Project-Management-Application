@@ -17,20 +17,20 @@ function Profile(props) {
         <div className="profile-info">
 
           <p className="text-black font-bold text-lg">Vision General</p>
-            <overview className="overview pr-16 mt-2">
+            <div className="overview pr-16 mt-2">
               <div className="flex justify-start gap-x-2 desktop:justify-start desktop:gap-16">
                 <CardStat />
               </div>
-            </overview>
+            </div>
 
             <p className="text-black font-bold text-lg">Densidad de trabajo</p>
             <div className="dendem flex mt-2">
               <div className="density rounded-lg w-96">
                 <AreaChart />
               </div>
-              <demography className="demography rounded-lg">
+              <div className="demography rounded-lg">
                 <Chart />
-              </demography>
+              </div>
             </div>
 
           <div className="activity-user">

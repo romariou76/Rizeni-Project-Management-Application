@@ -1,5 +1,23 @@
 
+
+import React, { useState, useEffect } from 'react';
+
+
 function Pruebas() {
+
+    // Retornando datos del proyecto
+    const [tarea, setTarea] = useState('');
+
+    const getData = () => {
+        return localStorage.getItem('prac-kanban');
+    }
+  
+    useEffect(() => {
+      setTarea(getData());
+    }, []);
+
+    console.log(setTarea)
+  
 
  const number = 10;
 

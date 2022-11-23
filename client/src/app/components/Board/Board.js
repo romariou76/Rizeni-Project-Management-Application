@@ -10,6 +10,31 @@ import "./Board.css";
 function Board(props) {
   const [showDropdown, setShowDropdown] = useState(false);
 
+
+// Guardamos los datos de las cards al localStorage con tro valor
+
+// Retornando datos del proyecto
+
+
+const Datos = props.board?.cards?.length;
+console.log(Datos)
+// console.log(Datos)
+
+
+const saveDatos = () => {
+  localStorage.setItem('tareas', Datos);
+  // alert('Has guardado pe');
+  
+}
+
+saveDatos()
+
+
+
+
+
+
+
   return (
     <div className="board-kanban">
       <div className="board_header">
