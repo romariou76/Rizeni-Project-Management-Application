@@ -35,7 +35,7 @@ export default function BasicModal() {
       <ul className="NavbarMain">
         <div className="content-navbar">
           <li><a href="default.asp">RIZENI</a></li>
-          <li><a href="news.asp">Tu trabajo</a></li>
+          <li><a href="#new">Tu trabajo</a></li>
           <li><select className="select-navbar">
               <option value="0">Proyectos</option>
               <option value="0">Rizeni</option>
@@ -49,6 +49,7 @@ export default function BasicModal() {
           <li><a href="/">Salir</a></li>
           <button onClick={handleOpen} className="button-modal">Crear</button>
         </div>
+
         <div className="content-navbar">
           <li><a href="about.asp">logos</a></li>
           <div class="search-navbar">
@@ -71,14 +72,27 @@ export default function BasicModal() {
       </Modal>
 
       <div className='home-content'>
-        <h1>Tu trabajo</h1>
+        <h1 className='text-xl text-black font-bold'>Bienvenido al area de tu trabajo</h1>
         <br></br>
-        <h3>Tus proyectos recientes</h3>
-        <div className='projects-container-links'>
-          <Link to="/menu" className="project-name-link">{nombre}</Link>
-          <Link to="/menu" className="project-name-link">PeepoPay</Link>
-          <Link to="/menu" className="project-name-link">SentioCLub</Link>
-          <Link to="/menu" className="project-name-link">Css Project</Link>
+        <h3 className='text-xl text-black mb-12'>Tus proyectos recientes</h3>
+        <div className='flex flex-row'>
+
+        <div className='card bg-white p-4 w-96 mr-12'>
+          <p className='text-black my-2 font-bold'>{nombre}</p>
+          <p className='my-2 text-slate-500'>Este proyecto esta hecho para desarrollar el siguiente proyecto para la empresa Gloria
+            dicha empresa esta sobrevalorada
+          </p>
+          <p className='mb-4'>Ultima vez visto: hace 4 dias</p>
+          <Link to="/menu/profile" className="project-name-link">Ir a: {nombre}</Link>
+        </div>
+        <div className='card bg-white p-4 w-96'>
+          <p>{nombre}</p>
+          <p>Este proyecto esta hecho para desarrollar el siguiente proyecto para la empresa Gloria
+            dicha empresa esta sobrevalorada
+          </p>
+          <Link to="/menu/profile" className="project-name-link">Ir a: {nombre}</Link>
+        </div>
+
         </div>
       </div>
     </div>

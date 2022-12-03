@@ -1,20 +1,17 @@
 .home-content{
   display: flex;
+  height: 100vh;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.projects-container-links{
-  display: flex;
-  flex-direction: column;
+  padding: 2rem;
+  background-color: rgb(224, 233, 241);
 }
 
 .project-name-link{
+  width: 10rem;
+  color: white;
   padding: 1rem;
   text-decoration: none;
-  margin-bottom: 1rem;
   border-radius: 0.5rem;
   font-weight: bold;
-  background-color: rgb(179, 135, 255);
+  background-color: rgb(93, 0, 255);
 }

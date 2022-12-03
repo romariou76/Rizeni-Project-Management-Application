@@ -24,6 +24,16 @@ function CreateProject() {
     <div className='WorkSpace'>
       <div className='form-modal'>
         <p className='text-lg text-black font-bold mb-4'>Vamos a crear un Proyecto<br></br></p>
+
+        <p className='mb-4 text-slate-500'>Impulse su productividad facilitandoles a todos <br></br> el acceso al flujo de trabajo en una unica ubicacion </p>
+        <br></br>
+        <p className='title-space-style mb-1 text-black'>Nombre del nuevo Proyecto</p>
+        <TextField onChange={handleInputChange} className='TextField' id="outlined-basic" label="" placeholder='Ingrese un nombre' variant="outlined" />
+        <p className='title-single-style mt-2 text-slate-500'>Este es el nombre de su empresa, equipo o organizacion</p>
+        <br></br>
+        <p className='font-bold mb-2 text-black'>Tipo de Proyecto</p>
+        <select className='select-project text-slate-500'>
+
         <p className='mb-4'>Impulse su productividad facilitandoles a todos <br></br> el acceso al flujo de trabajo en una unica ubicacion </p>
         <br></br>
         <p className='title-space-style mb-1'>Nombre del nuevo Proyecto</p>
@@ -32,16 +42,26 @@ function CreateProject() {
         <br></br>
         <p className='font-bold mb-2'>Tipo de Proyecto</p>
         <select className='select-project'>
+
           <option>Marketing</option>
           <option>Educacion</option>
           <option>Facturacion</option>
           <option>Ingenieria</option>
+          <option>Trabajo</option>
+          <option>Desarrollo</option>
           <option>Salud</option>
         </select>
+
+        <p className='title-single-style mt-2 text-slate-500'>El tipo de proyecto ayudara en el desarrollo del proyecto</p>
+        <br></br>
+        <p className='title-description-style mb-2 text-black'>Descripcion del Proyecto</p>
+        <textarea className='text-area-space text-slate-500'></textarea>
+
         <p className='title-single-style mt-2'>El tipo de proyecto ayudara en el desarrollo del proyecto</p>
         <br></br>
         <p className='title-description-style mb-2'>Descripcion del Proyecto</p>
         <textarea className='text-area-space'></textarea>
+
         <br></br>
         {/* <p className='title-single-style'>Incorpora a los miembros con unas cuantas palabras sobre tu espacio <br></br> de trabajo</p> */}
         <Link onClick={saveData} to="/menu/new" className='continue-bottom'>Continuar</Link>

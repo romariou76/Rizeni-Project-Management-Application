@@ -1,12 +1,12 @@
 .NavbarMain{
   display: flex;
   justify-content: space-between;
-  background-color: rgb(106, 0, 188);
+  background-color: hsl(236, 93%, 35%);
   color: white;
   padding: .7rem;
   list-style-type: none;
   margin: 0;
-  box-shadow: rgb(106, 0, 188) 0px 25px 20px -20px;
+  box-shadow: #090f62 0px 25px 20px -20px;
 }
 
 li{

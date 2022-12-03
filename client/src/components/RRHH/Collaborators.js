@@ -14,8 +14,9 @@ function Collaborators() {
       </div>
 
       <div className="collaborator-container">
-        <div>
+        <div className="mb-4">
           <p className="overview-p">Vista General</p>
+          <p>Un rol brinda acceso a menús y funciones predefinidos según el rol asignado a un administrador que puede tener acceso a lo que necesita.</p>
         </div>
 
         <div className="collaborator-content flex justify-start gap-x-5">
@@ -62,11 +63,12 @@ function Collaborators() {
       </div>
 
       <div className="collaborators-table-content shadow-md">
-        <p className="todays">Desarrolladores</p>
+        <p className="todays">Total de usuarias con sus roles.</p>
+        <p className="todays ">Encuentre todas las cuentas de administrador de su empresa y sus roles asociados.</p>
         <div className="colaborator-items">
-          <div className="h-20 bg-primary-content">
+          {/* <div className="h-20 bg-primary-content">
             <p>Show 10 Entryes</p>
-          </div>
+          </div> */}
           <Table />
 
           {/* <Collaborator name="Fernando" foto="foto" cargo="Frontend" />
@@ -75,7 +77,7 @@ function Collaborators() {
           <Collaborator name="Sofia" foto="foto" cargo="Diseñador UX" /> */}
         </div>
       </div>
-
+          <p className="">COPYRIGHT © 2022 Pixinvent, All rights ReservedHand-crafted & Made with</p>
     </div>
   );
 }

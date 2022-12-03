@@ -18,7 +18,7 @@
     flex-direction: column;
     width: 80%;
     background-color: rgb(224, 233, 241);
-    height: 90vh;
+    height: auto;
 }
 
 .overview{

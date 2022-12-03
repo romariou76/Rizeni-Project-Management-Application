@@ -5,17 +5,61 @@ import Chart from "./Chart"
 
 function DashboardPage(props) {
     return (
-        <div className="DashboardPage">
+        <div className="DashboardPage h-max">
 
         <Navbar />
             <div className="dashboard-main flex">
 
                 <div className="dashboard-content">
-                    <div className="participation rounded-lg 2xl:rounded-xs">
-
-                        <Chart />
-
+                <div className="card bg-white m-4 p-4 w-[40rem]">
+                    <p className="text-black text-2xl font-bold mb-4">Buenas tardes Romario</p>
+                    <p className="text-slate-500">Aquí puedes ver un resumen del estado, las prioridades y la
+                        carga de trabajo, entre muchos otros aspectos, del proyecto Senati.
+                     </p>
+                </div>
+{/* ----------CARDS---------------- */}
+                <div className="flex">
+                    <div className="w-64 rounded flex h-24 bg-white m-4 p-4 justify-around items-center">
+                        <p>O</p>                        
+                        <div className="flex-col">
+                            <p className="text-black  font-bold">0 finalizados</p>
+                            <p className="text-slate-500">En los últimos 7 dias</p>
+                        </div>
                     </div>
+                    <div className="w-64 rounded flex h-24 bg-white m-4 p-4 justify-around items-center">
+                        <p>O</p>                        
+                        <div className="flex-col">
+                            <p className="text-black  font-bold">0 actualizados</p>
+                            <p className="text-slate-500">En los últimos 7 dias</p>
+                        </div>
+                    </div>
+                    <div className="w-64 rounded flex h-24 bg-white m-4 p-4 justify-around items-center">
+                        <p>O</p>                        
+                        <div className="flex-col">
+                            <p className="text-black  font-bold">0 creados</p>
+                            <p className="text-slate-500">En los últimos 7 dias</p>
+                        </div>
+                    </div>
+                    <div className="w-64 rounded flex h-24 bg-white m-4 p-4 justify-around items-center">
+                        <p>O</p>                        
+                        <div className="flex-col">
+                            <p className="text-black  font-bold">0 en riesgo</p>
+                            <p className="text-slate-500">En los últimos 7 dias</p>
+                        </div>
+                    </div>
+                </div>
+{/* ----------CARDS---------------- */}
+                    
+                <div className="flex m-4 space-x-4">
+                    <div className="participation rounded-lg 2xl:rounded-xs">
+                        <Chart />
+                    </div>
+                    <div className="bg-white mr-8 p-4 w-[40rem] h-96">
+                            <p>Actividad Reciente</p>
+                            <p>Mantente al dia de lo que sucede en todo el proyecto.</p>
+                        </div>
+                </div>
+
                     <div className="work-MG-content flex justify-start gap-x-5">
                         {/* CARD-RESUMEN-ANALISIS */}
                             <Collaborators
@@ -36,6 +80,13 @@ function DashboardPage(props) {
                                 job = "UX UI Design"
                                 name = "Eva Sofia"
                                 progress= "20"
+                                // 
+                                // 
+                            />
+                            <Collaborators
+                                job = "UX UI Design"
+                                name = "Eva Sofia"
+                                progress= "40"
                                 // 
                                 // 
                             />
