@@ -8,6 +8,7 @@ import CardStat from "./CardStat.js";
 import Chart from "./charts/Chart"
 import AreaChart from "./charts/AreaChart";
 import Actividad from "./Actividad.js";
+import CardCTL from './CardCTL';
 
 function Profile(props) {
   return (
@@ -17,6 +18,9 @@ function Profile(props) {
         <div className="profile-info">
 
           <p className="text-black font-bold text-lg">Vision General</p>
+
+        <CardCTL></CardCTL>
+
             <div className="overview pr-16 mt-2">
               <div className="flex justify-start gap-x-2 desktop:justify-start desktop:gap-16">
                 <CardStat />
@@ -34,7 +38,7 @@ function Profile(props) {
             </div>
 
           <div className="activity-user">
-            <Actividad />
+            {/* <Actividad /> */}
           </div>
 
           {/* <div className="active-users"></div> */}

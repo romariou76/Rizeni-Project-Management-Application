@@ -7,9 +7,9 @@
 }
 
 .form-modal{
-  width: 40%;
+  width: 50%;
   height: auto;
-  padding: 2rem 6rem;
+  padding: 2rem 4rem;
 }
 
 .TextField{
@@ -46,7 +46,7 @@
 
 .hero-img-work{
   width: 25rem;
-  height: 25rem;
+  height: 18rem;
 }
 
 .text-area-space{

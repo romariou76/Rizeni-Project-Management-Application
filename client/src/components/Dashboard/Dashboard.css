@@ -1,6 +1,5 @@
 .DashboardPage{
     width: 90%;
-    height: 100vh;
     background-color: rgb(224, 233, 241);
 }
 
@@ -11,12 +10,11 @@
 .dashboard-content{
     width: 80%;
     display: flex;
+    overflow: auto;
     flex-direction: column;
-    overflow-y: auto;
 }
 
 .dashboard-content::-webkit-scrollbar {
-    display: none;
 }
 
 @media screen and (min-width:1366px){
@@ -37,10 +35,8 @@
 }
 
 .participation{
-    margin: 1rem;
-    width: 120vh;
-    display: flex;
-    height: 60vh;
+    width: 40rem;
+    height: 40vh;
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -58,6 +54,7 @@
 .sidebar-management{
     background-color: rgb(255, 255, 255);
     width: 20%;
+    height: 100vh;
     padding: 1rem;
     box-shadow: rgba(63, 63, 63, 0.075) 0px 0px 7px 7px;
 }

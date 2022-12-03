@@ -7,7 +7,7 @@ function LoginPage() {
     <div className="login-container">
       <form>
         <div className="login-form">
-          <h2>Inicie Sesion</h2>
+          <h2 className="text-black font-bold">Inicie Sesion</h2>
           <div className="grupo">
             <input required />
             <label>Email</label>
@@ -23,7 +23,7 @@ function LoginPage() {
             Ingresar
           </Link>
 
-          <p>¿No tienes una cuenta?</p>
+          <p className="my-2">¿No tienes una cuenta?</p>
           <Link to="/register">Registrate aqui</Link>
         </div>
       </form>

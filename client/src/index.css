@@ -5,6 +5,7 @@
 body {
   margin: 0;
   padding: 0;
+  Overflow: hidden;
   background-color: #090f62;
   font-family: 'Familjen Grotesk', sans-serif; 
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

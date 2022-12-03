@@ -9,25 +9,25 @@ function RegisterPage() {
       <div className="left-container">
         <form>
           <div className="register-form">
-            <h2>Registrese Ahora</h2>
+            <h2 className="text-black text-xl font-bold">Registrese Ahora</h2>
 
             <div className="grupo-reg">
-              <input required placeholder="Nombre" />
+              <input className="text-slate-500" required placeholder="Nombre" />
             </div>
             <div className="grupo-reg">
-              <input required placeholder="Email" />
-            </div>
-
-            <div className="grupo-reg">
-              <input required placeholder="Rol" />
+              <input className="text-slate-500" required placeholder="Email" />
             </div>
 
             <div className="grupo-reg">
-              <input required placeholder="Password" />
+              <input className="text-slate-500" required placeholder="Rol" />
             </div>
 
             <div className="grupo-reg">
-              <input required placeholder="Confirm Password" />
+              <input className="text-slate-500" required placeholder="Password" />
+            </div>
+
+            <div className="grupo-reg">
+              <input className="text-slate-500" required placeholder="Confirm Password" />
             </div>
 
             <br></br>
@@ -39,12 +39,12 @@ function RegisterPage() {
 
         <div className="right-container">
           <div>
-            <p>Utilize sus redes sociales </p>
+            <p className="text-black font-bold">Utilize sus redes sociales </p>
             <div className="facebook-container"><AiFillFacebook className="AiFillFacebook"/>Accede con Facebook</div>
             <div className="twiter-container"><AiOutlineTwitter className="AiOutlineTwitter"/>Accede con Twiter</div>
             <div className="google-container"><FcGoogle className="FcGoogle" />Accede con Google</div>
             <div className="github-container"><AiFillGithub className="AiFillGithub" />Accede con GitHub</div>
-          <Link to="/login">¿Ya tiene una cuenta? Inicie sesión</Link>
+          <Link to="/login" className="text-slate-500">¿Ya tiene una cuenta? Inicie sesión</Link>
           </div>
         </div>
     </div>
