@@ -51,6 +51,7 @@ function CreateProject({addProyecto}) {
     <div className='WorkSpace'>
       <div className='form-modal'>
         <p className='text-lg text-black font-bold mb-4'>Vamos a crear un Proyecto<br></br></p>
+
         <p className='mb-4 text-slate-500'>Impulse su productividad facilitandoles a todos <br></br> el acceso al flujo de trabajo en una unica ubicacion </p>
         <br></br>
         <p className='title-space-style mb-1 text-black'>Nombre del nuevo Proyecto</p>
@@ -58,7 +59,7 @@ function CreateProject({addProyecto}) {
         <p className='title-single-style mt-2 text-slate-500'>Este es el nombre de su empresa, equipo o organizacion</p>
         <br></br>
         <p className='font-bold mb-2 text-black'>Tipo de Proyecto</p>
-        <select className='select-project text-slate-500' name="tipo" onChange={handleChange}>
+        <select className='select-project text-slate-500'>
           <option>Marketing</option>
           <option>Educacion</option>
           <option>Facturacion</option>
@@ -67,10 +68,11 @@ function CreateProject({addProyecto}) {
           <option>Desarrollo</option>
           <option>Salud</option>
         </select>
+
         <p className='title-single-style mt-2 text-slate-500'>El tipo de proyecto ayudara en el desarrollo del proyecto</p>
         <br></br>
         <p className='title-description-style mb-2 text-black'>Descripcion del Proyecto</p>
-        <textarea className='text-area-space text-slate-500' name="descripcion" onChange={handleChange} value={projectData.descripcion}></textarea>
+        <textarea className='text-area-space text-slate-500'></textarea>
         <br></br>
         {/* <p className='title-single-style'>Incorpora a los miembros con unas cuantas palabras sobre tu espacio <br></br> de trabajo</p> */}
         {/* <Link to="/menu/new" className='continue-bottom'>Continuar</Link> */}
