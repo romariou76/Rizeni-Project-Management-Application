@@ -1,8 +1,22 @@
-import "./Table.css"
+function TableTasks(props) {
 
-function Table() {
+  const Datos = props.board.cards
+ 
+
+  const fullnames = []
+  
+    Datos.forEach((dato) => {
+      fullnames.push(dato.title)
+    // localStorage.setItem('titlesTareas', JSON.stringify(fullnames));
+  
+    })
+  
+    console.log(fullnames)
+
+
   return ( 
-    <>
+    <tbody> 
+      <>
       <div className="overflow-x-auto">
   <table className="table w-full">
 
@@ -19,10 +33,11 @@ function Table() {
     </thead>
     <tbody>
       {/* <!-- row 1 --> */}
-      <tr className="border-th">
-        <td className="bg-white"><input type="checkbox"></input></td>
-        {/* <th className="bg-white">1</th> */}
-        <td className="bg-white">Realizar la Navbar</td>
+      {
+        fullnames.map(name => {
+          return <tr className="border-th">
+        <th className="bg-white">1</th>
+        <td className="bg-white">{name}</td>
         <td className="bg-white text-primary">Facil</td>
         <td className="bg-white text-warning">En Progreso</td>
         <td className="bg-white">Nov. 17</td>
@@ -32,13 +47,23 @@ function Table() {
           </div>
         </td>
       </tr>
+
+
+        })
+      }
+
+      
       {/* <!-- row 2 --> */}
 
     </tbody>
   </table>
 </div>
     </>
+
+      
+
+    </tbody>
    );
 }
 
-export default Table;
+export default TableTasks;

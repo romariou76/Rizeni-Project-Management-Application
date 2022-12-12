@@ -3,6 +3,7 @@ import Board from "./components/Board/Board";
 import Navbar from "./components/Navbar/Navbar"
 import "./App.css";
 import Editable from "./components/Editabled/Editable.js";
+import TableTasks from "./components/Board/TableTasks";
 
 function Appp() {
   const [boards, setBoards] = useState(
@@ -135,6 +136,7 @@ function Appp() {
               dragEntered={dragEntered}
               updateCard={updateCard}
             />
+            
           ))}
           <div className="app_boards_last">
             <Editable
@@ -148,6 +150,13 @@ function Appp() {
           </div>
         </div>
       </div>
+      
+      {boards.map((item) => (
+            <TableTasks
+              board={item}
+          />
+            
+          ))}
   </div>
   );
 }

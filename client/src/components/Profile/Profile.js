@@ -18,8 +18,9 @@ function Profile(props) {
         <div className="profile-info">
 
           <p className="text-black font-bold text-lg">Vision General</p>
-
-        <CardCTL></CardCTL>
+          <div className="flex space-x-8">
+            <CardCTL></CardCTL>
+          </div>
 
             <div className="overview pr-16 mt-2">
               <div className="flex justify-start gap-x-2 desktop:justify-start desktop:gap-16">

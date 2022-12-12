@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { MoreHorizontal } from "react-feather";
 
 import Card from "../Card/Card";
@@ -10,30 +10,32 @@ import "./Board.css";
 function Board(props) {
   const [showDropdown, setShowDropdown] = useState(false);
 
-
-// Guardamos los datos de las cards al localStorage con tro valor
-
-// Retornando datos del proyecto
+  // console.log(props.board.cards.length)
 
 
-const Datos = props.board?.cards?.length;
-console.log(Datos)
-// console.log(Datos)
+ const Datos = props.board.cards
+  // console.log(Datos.length)
 
+  // devolvemos la cantidad de tareas que hay en undefined por solucionar
 
-const saveDatos = () => {
-  localStorage.setItem('tareas', Datos);
-  // alert('Has guardado pe');
+const fullnames = []
+
+  Datos.forEach((dato) => {
+    fullnames.push(dato.title)
+  })
+
+  console.log(fullnames)
   
-}
-
-saveDatos()
-
+  // Devolvemos el nombre de cada tarea sevira para listado de tareas
+  Datos.forEach((dato) => {console.log(dato.title)})
 
 
+// const saveDatos = () => {
+//   localStorage.setItem('tareas', Datos);
+//   alert('Has guardado pe');
+// }
 
-
-
+// saveDatos()
 
   return (
     <div className="board-kanban">
