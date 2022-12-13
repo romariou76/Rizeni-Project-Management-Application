@@ -1,11 +1,10 @@
 .Profile-col{
     width: 90%;
-    overflow-y: hidden;
 }
 
 .Profile{
     display: flex;
-    height: 100vh;
+    height: auto;
 }
 
 .Profile-content{
@@ -13,12 +12,11 @@
 }
 
 .profile-info{
-    padding: 1rem;
     display: flex;
     flex-direction: column;
     width: 80%;
-    background-color: rgb(224, 233, 241);
     height: auto;
+    background-color: rgb(224, 233, 241);
 }
 
 .overview{
@@ -78,6 +76,7 @@
     flex-direction: column;
     width: 20%;
     background-color: rgb(255, 255, 255);
-    height: 100vh;
+    height: 92vh;
+    overflow: hidden;
     box-shadow: rgba(63, 63, 63, 0.075) 0px 0px 7px 7px;
 }

@@ -97,7 +97,7 @@ function BasicModal() {
                   </p>
                   <p>Tipo: {proyecto.tipo}</p>
                   <p className='mb-4'>Ultima vez visto: hace 4 dias</p>
-                  <Link to="/menu/profile" className="project-name-link">Ir a: {proyecto.nombre}</Link>
+                  <Link to="/menu/new" className="project-name-link">Ir a: {proyecto.nombre}</Link>
                 </div>
               })
           }

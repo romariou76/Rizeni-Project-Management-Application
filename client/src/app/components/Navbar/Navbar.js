@@ -24,7 +24,7 @@ function Navbar() {
 
 
   return (
-    <div className="navbar navbar-index text-white" data-aos="fade-in">
+    <div className="navbar navbar-index text-white">
 
       <div className="navbar-start">
         {/* <div className="dropdown">
@@ -47,7 +47,7 @@ function Navbar() {
           }
         
         </div>
-        <AvatarGroup className="avatar-group ml-8" max={6}>
+        <AvatarGroup className="avatar-group ml-8" max={7}>
             <Avatar alt="Remy Sharp" src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" />
             <Avatar alt="Travis Howard" src="https://mdbcdn.b-cdn.net/img/new/avatars/1.webp" />
             <Avatar alt="Cindy Baker" src="https://mdbcdn.b-cdn.net/img/new/avatars/3.webp" />
@@ -55,6 +55,7 @@ function Navbar() {
             <Avatar alt="Trevor Henderson" src="https://mdbcdn.b-cdn.net/img/new/avatars/5.webp" />
             <Avatar alt="Trevor Henderson" src="https://mdbcdn.b-cdn.net/img/new/avatars/6.webp" />
             <Avatar alt="Trevor Henderson" src="https://ej2.syncfusion.com/demos/src/grid/images/5.png" />
+            <Avatar alt="Trevor Henderson" src="https://ej2.syncfusion.com/demos/src/grid/images/3.png" />
           </AvatarGroup>
           <p className="invitar-buttom hover:bg-violet-700">Invitar</p>
       </div>

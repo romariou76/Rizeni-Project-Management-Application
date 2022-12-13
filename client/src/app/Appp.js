@@ -150,13 +150,6 @@ function Appp() {
           </div>
         </div>
       </div>
-      
-      {boards.map((item) => (
-            <TableTasks
-              board={item}
-          />
-            
-          ))}
   </div>
   );
 }

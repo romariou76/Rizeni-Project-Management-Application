@@ -2,14 +2,14 @@ import "./Table.css"
 
 
 const baseDatos = [
-  { id: 1, nombre: 'Brenda Mylene', correo: "brenda@gmail.com", fecha: '12/04/2022', rol: 'Frontend Developer', estado: 'activo', link: 'https://mdbcdn.b-cdn.net/img/new/avatars/1.webp' },
-  { id: 2, nombre: 'Romario Quispe', correo: "romario@gmail.com", fecha: '11/02/2022', rol: 'Backend Developer', estado: 'inactivo', link: 'https://mdbcdn.b-cdn.net/img/new/avatars/2.webp' },
-  { id: 3, nombre: 'Juan Vicente', correo: "juan@gmail.com", fecha: '19/01/2022', rol: 'UI Designe', estado: 'activo', link: 'https://mdbcdn.b-cdn.net/img/new/avatars/3.webp' },
-  { id: 4, nombre: 'Eva Graciel', correo: "eva@gmail.com", fecha: '01/04/2022', rol: 'Backend Developer', estado: 'inactivo', link: 'https://mdbcdn.b-cdn.net/img/new/avatars/4.webp' },
-  { id: 5, nombre: 'Ernesto dift', correo: "ernesto@gmail.com", fecha: '17/06/2022', rol: 'Frontend Developer', estado: 'activo', link: 'https://mdbcdn.b-cdn.net/img/new/avatars/5.webp' },
-  { id: 6, nombre: 'Paola Llacho', correo: "paola@gmail.com", fecha: '15/09/2022', rol: 'UI Designer', estado: 'activo', link: 'https://mdbcdn.b-cdn.net/img/new/avatars/6.webp' },
-  { id: 7, nombre: 'Daniel Pereido', correo: "daniel@gmail.com", fecha: '09/11/2022', rol: 'Backend Developer', estado: 'inactivo', link: 'https://mdbcdn.b-cdn.net/img/new/avatars/7.webp' },
-  { id: 8, nombre: 'Cesar Rosas', correo: "cesar@gmail.com", fecha: '11/04/2022', rol: 'UI Designe', estado: 'activo', link: 'https://mdbcdn.b-cdn.net/img/new/avatars/8.webp' },
+  { id: 1, nombre: 'Brenda Mylene', correo: "brenda@gmail.com", fecha: 'Alta', rol: 'Frontend Developer', estado: 'activo', link: 'https://mdbcdn.b-cdn.net/img/new/avatars/1.webp' },
+  { id: 2, nombre: 'Romario Quispe', correo: "romario@gmail.com", fecha: 'Media', rol: 'Frontend Developer', estado: 'activo', link: 'https://mdbcdn.b-cdn.net/img/new/avatars/2.webp' },
+  { id: 3, nombre: 'Juan Vicente', correo: "juan@gmail.com", fecha: 'Alta', rol: 'UI Designe', estado: 'activo', link: 'https://mdbcdn.b-cdn.net/img/new/avatars/3.webp' },
+  { id: 4, nombre: 'Eva Graciel', correo: "eva@gmail.com", fecha: 'Baja', rol: 'Backend Developer', estado: 'inactivo', link: 'https://mdbcdn.b-cdn.net/img/new/avatars/4.webp' },
+  { id: 5, nombre: 'Ernesto dift', correo: "ernesto@gmail.com", fecha: 'Alta', rol: 'Backend Developer', estado: 'activo', link: 'https://mdbcdn.b-cdn.net/img/new/avatars/5.webp' },
+  { id: 6, nombre: 'Paola Llacho', correo: "paola@gmail.com", fecha: 'Alta', rol: 'UI Designer', estado: 'activo', link: 'https://mdbcdn.b-cdn.net/img/new/avatars/6.webp' },
+  { id: 7, nombre: 'Daniel Pereido', correo: "daniel@gmail.com", fecha: 'Excelente', rol: 'Backend Developer', estado: 'inactivo', link: 'https://mdbcdn.b-cdn.net/img/new/avatars/7.webp' },
+  { id: 8, nombre: 'Cesar Rosas', correo: "cesar@gmail.com", fecha: 'Media', rol: 'UI Designe', estado: 'activo', link: 'https://mdbcdn.b-cdn.net/img/new/avatars/8.webp' },
 ]
 
 function Table() {
@@ -21,7 +21,7 @@ function Table() {
           <tr className="border-th">
             <th className="bg-white">Foto</th>
             <th className="bg-white font-bold">nombre</th>
-            <th className="bg-white">Fecha</th>
+            <th className="bg-white">Productividad</th>
             <th className="bg-white" >Rol</th>
             <th className="bg-white">Estado</th>
             <th className="bg-white flex justify-center">Acciones</th>

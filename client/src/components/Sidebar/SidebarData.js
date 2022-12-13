@@ -29,12 +29,6 @@ export const SidebarData=[
     // },
 
     {
-        title: "Reportes",
-        path: "/menu/analisis",
-        icon: <SiGoogleanalytics />
-    },
-
-    {
         title: "Kanban",
         path: "/menu/new",
         icon: <MdTask />

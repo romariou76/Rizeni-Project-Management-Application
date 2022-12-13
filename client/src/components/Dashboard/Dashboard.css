@@ -10,9 +10,21 @@
 .dashboard-content{
     width: 80%;
     display: flex;
-    overflow: auto;
     flex-direction: column;
 }
+
+.Statistics-badge{
+    background-color: rgba(4, 0, 255, 0.128);
+}   
+
+.Statistics-badge2{
+    background-color: rgba(9, 255, 0, 0.128);
+}
+
+.Statistics-badge3{
+    background-color: rgba(253, 8, 0, 0.128);
+}
+
 
 .dashboard-content::-webkit-scrollbar {
 }
@@ -53,25 +65,22 @@
 
 .sidebar-management{
     background-color: rgb(255, 255, 255);
-    width: 20%;
-    height: 100vh;
-    padding: 1rem;
+    width: 21%;
+    height: auto;
     box-shadow: rgba(63, 63, 63, 0.075) 0px 0px 7px 7px;
 }
 
-@media screen and (max-width:1920px){
+/* @media screen and (max-width:1920px){
     .sidebar-management{
         width: 15%;
-        /* background-color: green; */
     }
 }
 
 @media screen and (max-width:1368px){
     .sidebar-management{
         width: 20%;
-        /* background-color: blueviolet; */
     }
-}
+} */
 
 
 .progress-completed{
